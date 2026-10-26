@@ -1,0 +1,3512 @@
+{
+  "target": {
+    "sector": "Healthcare Services",
+    "ev_mm": 200.0,
+    "ownership": "Private",
+    "min_margin_pct": 16.8,
+    "region": null
+  },
+  "min_strategics": 0,
+  "market_comps": {
+    "sector": "Healthcare Services",
+    "min_ev_mm": 100.0,
+    "max_ev_mm": 400.0,
+    "transaction_ids": [
+      "MA-2018-0470",
+      "MA-2019-0352",
+      "MA-2020-0232",
+      "MA-2020-0304",
+      "MA-2020-0306",
+      "MA-2020-0408",
+      "MA-2021-0195",
+      "MA-2021-0407",
+      "MA-2022-0350",
+      "MA-2024-0120"
+    ],
+    "median_ev_ebitda": 12.100000000000001,
+    "median_ev_revenue": 2.895
+  },
+  "target_risks": [
+    {
+      "title": "Competitive process",
+      "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+      "source": "data",
+      "severity": "normal",
+      "transaction_ids": [
+        "MA-2019-0352",
+        "MA-2020-0232",
+        "MA-2020-0306",
+        "MA-2021-0195",
+        "MA-2024-0120"
+      ],
+      "explanation": ""
+    }
+  ],
+  "warnings": [],
+  "one_pagers": [
+    {
+      "acquirer": "Nordic Capital",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 1,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Nordic Capital",
+        "score": 19.4371119905429,
+        "contributions": [
+          {
+            "sector": "Physician Groups",
+            "deal_count": 10,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 4,
+            "weight": 1.0
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 3,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 3,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 2,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 2,
+            "weight": 0.7158203583477499
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0310",
+            "target_company": "Green Multispecialty Group",
+            "acquirer": "Nordic Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2021,
+            "deal_quarter": 4,
+            "deal_type": "Recapitalization",
+            "geography": "Southwest",
+            "financing_type": "Cash + Stock",
+            "ev_mm": 301.0,
+            "revenue_mm": 144.7,
+            "ebitda_margin_pct": 12.0,
+            "revenue_growth_pct": 6.7,
+            "ev_ebitda": 14.0,
+            "ev_revenue": 2.08,
+            "synergy_pct": 2.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cross-sell"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 223,
+            "target_ownership": "Public"
+          },
+          "is_direct": true,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0208",
+            "target_company": "Titan Medical Associates",
+            "acquirer": "Nordic Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2021,
+            "deal_quarter": 1,
+            "deal_type": "Merger of Equals",
+            "geography": "Great Plains",
+            "financing_type": "Leveraged",
+            "ev_mm": 370.4,
+            "revenue_mm": 216.6,
+            "ebitda_margin_pct": 12.3,
+            "revenue_growth_pct": 11.1,
+            "ev_ebitda": 10.2,
+            "ev_revenue": 1.71,
+            "synergy_pct": 17.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 324,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0280",
+            "target_company": "Alliance Primary Care",
+            "acquirer": "Nordic Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2023,
+            "deal_quarter": 3,
+            "deal_type": "Leveraged Buyout",
+            "geography": "West Coast",
+            "financing_type": "Cash + Stock",
+            "ev_mm": 388.8,
+            "revenue_mm": 313.5,
+            "ebitda_margin_pct": 7.4,
+            "revenue_growth_pct": 9.6,
+            "ev_ebitda": 13.4,
+            "ev_revenue": 1.24,
+            "synergy_pct": 3.4,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 272,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": true,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0466",
+            "target_company": "Harbor Medical Center",
+            "acquirer": "Nordic Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2023,
+            "deal_quarter": 2,
+            "deal_type": "Leveraged Buyout",
+            "geography": "Great Plains",
+            "financing_type": "Seller Financing",
+            "ev_mm": 991.0,
+            "revenue_mm": 291.5,
+            "ebitda_margin_pct": 11.2,
+            "revenue_growth_pct": 11.0,
+            "ev_ebitda": 11.1,
+            "ev_revenue": 3.4,
+            "synergy_pct": 7.4,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Scale",
+              "Geographic Expansion",
+              "Cross-sell"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 48,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2024-0339",
+            "target_company": "Harbor Health Network",
+            "acquirer": "Nordic Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2024,
+            "deal_quarter": 4,
+            "deal_type": "Carve-out",
+            "geography": "National",
+            "financing_type": "Leveraged",
+            "ev_mm": 35.0,
+            "revenue_mm": 13.0,
+            "ebitda_margin_pct": 10.7,
+            "revenue_growth_pct": 5.8,
+            "ev_ebitda": 11.6,
+            "ev_revenue": 2.7,
+            "synergy_pct": 13.6,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Carve-out Complexity",
+              "Diversification"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 136,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 21,
+        "acquirer_median_ev_ebitda": 12.5,
+        "acquirer_median_ev_revenue": 2.33,
+        "direct_count": 3,
+        "direct_median_ev_ebitda": 13.4
+      },
+      "conviction": {
+        "level": "High",
+        "direct_precedents": 3,
+        "exact_sector_deals": 4,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Recent pace",
+          "detail": "6 deals in 2023-2024; integration bandwidth may be stretched",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2023-0255",
+            "MA-2023-0466",
+            "MA-2023-0280",
+            "MA-2023-0355",
+            "MA-2024-0431",
+            "MA-2024-0339"
+          ],
+          "explanation": "6 deals in 2023-2024 against a peer median of 3 suggests integration bandwidth may be stretched for a new deal."
+        },
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so a sale here may be contested."
+        },
+        {
+          "title": "Financing capacity",
+          "detail": "Outside the data: the facts don't show fund size, remaining capital or debt availability for a new $200.0M deal.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: the data doesn't show whether Nordic Capital would treat this target as a platform or an add-on, or its exit path and holding period.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Competition from other sponsors",
+          "detail": "Outside the data: several shortlisted sponsors, including Bain Capital, New Mountain Capital and Advent International, also have 3 direct precedents, so Nordic Capital may face close rivals.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Nordic Capital ranks 1 of 10 sponsors, with 3 direct precedents and 10 Physician Groups deals",
+      "overview": "Nordic Capital is a Financial Sponsor with 24 deals in the data, 21 closed, from 2016 to 2024 (F1, F3). Deal sizes run from $6.5M (MA-2022-0096) to $1,304.4M (MA-2022-0045), with a median of $77.5M (F10). It buys most in Physician Groups (10 deals), then Healthcare Services (4), Behavioral Health (3) and Home Health/Hospice (3) (F4-F7). It did 6 deals in 2023-2024, and the last was in 2024 Q4 (F12).",
+      "fit_thesis": "The target is Healthcare Services at $200.0M EV. Nordic Capital has 4 deals in Healthcare Services against a peer median of 1 (F5, F26). It has 3 direct precedents against a peer median of 2 (F16, F27). Its Physician Groups book (10 deals, similarity 0.83) and Behavioral Health book (3 deals, similarity 0.77) sit next to the target sector (F4, F6). The target's $200.0M EV is larger than 58% of its deals (F11). It is a regional target, and 21 of 24 of its deals are regional, but the peer median is 80%, so that trait is typical of sponsors and not specific to Nordic Capital (F15, F30). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "The 3 direct precedents are all Physician Groups deals: MA-2021-0310 ($301.0M, 14.0x), MA-2021-0208 ($370.4M, 10.2x) and MA-2023-0280 ($388.8M, 13.4x). They bracket the target's $200.0M EV from above and are the closest size matches. MA-2023-0466 ($991.0M) and MA-2024-0339 ($35.0M) are Healthcare Services deals but not direct precedents, because of size.",
+      "valuation_commentary": "The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F19). Nordic Capital's 3 direct precedents show a median EV/EBITDA of 13.4x (F17). Across its 21 closed deals, its medians are 12.5x EV/EBITDA and 2.33x EV/Revenue (F20). The data doesn't show what price it would pay for this target.",
+      "conviction_reason": "Conviction is High because Nordic Capital has 3 direct precedents (MA-2021-0208, MA-2021-0310, MA-2023-0280) and 4 deals in Healthcare Services (F31). Neither data risk is high severity, so the level is not lowered.",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F7",
+          "F10",
+          "F12"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F6",
+          "F11",
+          "F15",
+          "F16",
+          "F26",
+          "F27",
+          "F30"
+        ],
+        "precedent_commentary": [
+          "MA-2021-0310",
+          "MA-2021-0208",
+          "MA-2023-0280",
+          "MA-2023-0466",
+          "MA-2024-0339",
+          "F16"
+        ],
+        "valuation_commentary": [
+          "F17",
+          "F19",
+          "F20"
+        ],
+        "conviction_reason": [
+          "F16",
+          "F18",
+          "F31"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "Vista Equity",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 2,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Vista Equity",
+        "score": 18.370915157832318,
+        "contributions": [
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 6,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 4,
+            "weight": 1.0
+          },
+          {
+            "sector": "Physician Groups",
+            "deal_count": 3,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 3,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 3,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 2,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 2,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 1,
+            "weight": 0.5204834387696163
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0383",
+            "target_company": "Select Counseling",
+            "acquirer": "Vista Equity",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2020,
+            "deal_quarter": 2,
+            "deal_type": "Recapitalization",
+            "geography": "Great Plains",
+            "financing_type": "Earnout",
+            "ev_mm": 182.7,
+            "revenue_mm": 138.4,
+            "ebitda_margin_pct": 14.5,
+            "revenue_growth_pct": 20.8,
+            "ev_ebitda": 16.2,
+            "ev_revenue": 1.32,
+            "synergy_pct": 6.4,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Market Share"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 146,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0131",
+            "target_company": "Maple Behavioral Health",
+            "acquirer": "Vista Equity",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2021,
+            "deal_quarter": 2,
+            "deal_type": "Merger of Equals",
+            "geography": "Southeast",
+            "financing_type": "Seller Financing",
+            "ev_mm": 110.5,
+            "revenue_mm": 44.6,
+            "ebitda_margin_pct": 11.3,
+            "revenue_growth_pct": 11.8,
+            "ev_ebitda": 9.8,
+            "ev_revenue": 2.48,
+            "synergy_pct": 20.2,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Diversification"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 179,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0221",
+            "target_company": "Zenith Medical Solutions",
+            "acquirer": "Vista Equity",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2023,
+            "deal_quarter": 4,
+            "deal_type": "Recapitalization",
+            "geography": "Mid-Atlantic",
+            "financing_type": "Seller Financing",
+            "ev_mm": 152.5,
+            "revenue_mm": 52.6,
+            "ebitda_margin_pct": 15.8,
+            "revenue_growth_pct": 15.6,
+            "ev_ebitda": 16.9,
+            "ev_revenue": 2.9,
+            "synergy_pct": 9.3,
+            "outcome": "Withdrawn",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Diversification"
+            ],
+            "num_bidders": 2,
+            "days_to_close": null,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0226",
+            "target_company": "Strategic Medical Management",
+            "acquirer": "Vista Equity",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2021,
+            "deal_quarter": 2,
+            "deal_type": "Bolt-on Acquisition",
+            "geography": "West Coast",
+            "financing_type": "Mixed",
+            "ev_mm": 582.9,
+            "revenue_mm": 204.5,
+            "ebitda_margin_pct": 12.0,
+            "revenue_growth_pct": 9.1,
+            "ev_ebitda": 16.5,
+            "ev_revenue": 2.85,
+            "synergy_pct": 11.7,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Scale",
+              "Geographic Expansion",
+              "Platform Build",
+              "Cross-sell"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 91,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2024-0251",
+            "target_company": "Taft Care Partners",
+            "acquirer": "Vista Equity",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2024,
+            "deal_quarter": 1,
+            "deal_type": "Bolt-on Acquisition",
+            "geography": "Southwest",
+            "financing_type": "Seller Financing",
+            "ev_mm": 24.3,
+            "revenue_mm": 11.5,
+            "ebitda_margin_pct": 15.7,
+            "revenue_growth_pct": 12.9,
+            "ev_ebitda": 9.6,
+            "ev_revenue": 2.11,
+            "synergy_pct": 6.9,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "Cost Synergies"
+            ],
+            "num_bidders": 5,
+            "days_to_close": 330,
+            "target_ownership": "Public"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 19,
+        "acquirer_median_ev_ebitda": 13.5,
+        "acquirer_median_ev_revenue": 2.61,
+        "direct_count": 2,
+        "direct_median_ev_ebitda": 13.0
+      },
+      "conviction": {
+        "level": "Medium",
+        "direct_precedents": 2,
+        "exact_sector_deals": 4,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Recent pace",
+          "detail": "7 deals in 2023-2024; integration bandwidth may be stretched",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2023-0116",
+            "MA-2023-0278",
+            "MA-2023-0209",
+            "MA-2023-0263",
+            "MA-2023-0221",
+            "MA-2024-0251",
+            "MA-2024-0190"
+          ],
+          "explanation": "Vista did 7 deals in 2023-2024 against a peer median of 3, so it may have less bandwidth for a new deal (F34, F25)."
+        },
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so expect competition for this asset (F35)."
+        },
+        {
+          "title": "Financing capacity",
+          "detail": "Outside the data: the facts say nothing about Vista's available capital or financing terms for a $200.0M deal.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Competition from other sponsors",
+          "detail": "Outside the data: Nordic Capital, Bain Capital and Advent International each show 3 direct precedents against Vista's 2, so they may be stronger rivals on sector experience.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Margin profile mismatch",
+          "detail": "Only 21% of Vista's targets had margins at or above 16.8%, so a strong-margin target is outside its usual pattern. The data doesn't show whether that matters to Vista.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Vista Equity: rank 2 sponsor with 4 Healthcare Services deals and 2 direct precedents, above peer median",
+      "overview": "Vista Equity is a Financial Sponsor with 24 deals in the data, 19 closed, from 2015-2024 (F1, F3). Deal sizes run from $6.4M (MA-2016-0367) to $9,193.4M (MA-2023-0209), with a median of $153.4M (F12). It ranks 2 of 10 with a score of 18.4 (F2). It has 7 deals in 2023-2024, and its last deal was in 2024 Q3 (F14).",
+      "fit_thesis": "The $200.0M target is larger than 67% of Vista's deals, so it sits in the middle of their size range (F13). Vista has 4 Healthcare Services deals against a peer median of 1, which sets it apart from typical sponsors (F5, F28). It also has 6 Behavioral Health deals, 3 in Physician Groups and 3 in Dental (F4, F6, F7). All 24 of its targets were regional, but the peer median is 80%, so that trait is less distinctive (F17, F32). Only 5 of 24 targets (21%) had a margin at or above 16.8%, against a peer median of 39% (F16, F31). The target's strong margin is therefore not a typical Vista profile. Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "Vista has 2 direct precedents, equal to the peer median of 2 (F18, F29). Both are Behavioral Health: MA-2020-0383 at $182.7M and 16.2x EV/EBITDA, and MA-2021-0131 at $110.5M and 9.8x. MA-2023-0221 is a Healthcare Services deal at $152.5M that was withdrawn. Vista has 4 withdrawn and 1 terminated deals in total (F23).",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F21). Vista's 2 direct precedents have median EV/EBITDA of 13.0x (F19). Across its 19 closed deals, Vista's median EV/EBITDA is 13.5x and median EV/Revenue is 2.61x (F22). The data doesn't show what Vista would pay for this target.",
+      "conviction_reason": "Conviction is Medium because Vista has 2 direct precedents, short of the 3 needed for High, and 4 Healthcare Services deals (F33, F18, F20). Neither data risk is high severity, so the level is not lowered.",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F2",
+          "F3",
+          "F12",
+          "F14"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F6",
+          "F7",
+          "F13",
+          "F16",
+          "F17",
+          "F28",
+          "F31",
+          "F32"
+        ],
+        "precedent_commentary": [
+          "F18",
+          "F23",
+          "F29",
+          "MA-2020-0383",
+          "MA-2021-0131",
+          "MA-2023-0221"
+        ],
+        "valuation_commentary": [
+          "F19",
+          "F21",
+          "F22"
+        ],
+        "conviction_reason": [
+          "F18",
+          "F20",
+          "F33",
+          "F34",
+          "F35"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "Bain Capital",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 3,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Bain Capital",
+        "score": 17.32064657806704,
+        "contributions": [
+          {
+            "sector": "Physician Groups",
+            "deal_count": 7,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 3,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 3,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 2,
+            "weight": 1.0
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 2,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 2,
+            "weight": 0.4660413824283704
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 2,
+            "weight": 0.43852900965351466
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 1,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 1,
+            "weight": 0.5204834387696163
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0232",
+            "target_company": "Summit Medical Group",
+            "acquirer": "Bain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2020,
+            "deal_quarter": 2,
+            "deal_type": "Merger of Equals",
+            "geography": "Great Plains",
+            "financing_type": "Seller Financing",
+            "ev_mm": 330.6,
+            "revenue_mm": 121.1,
+            "ebitda_margin_pct": 14.2,
+            "revenue_growth_pct": 9.4,
+            "ev_ebitda": 11.9,
+            "ev_revenue": 2.73,
+            "synergy_pct": 10.6,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Market Share"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 250,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0163",
+            "target_company": "Core Multispecialty Group",
+            "acquirer": "Bain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2021,
+            "deal_quarter": 4,
+            "deal_type": "SPAC Merger",
+            "geography": "Northeast",
+            "financing_type": "Cash + Stock",
+            "ev_mm": 207.4,
+            "revenue_mm": 195.7,
+            "ebitda_margin_pct": 9.2,
+            "revenue_growth_pct": 18.5,
+            "ev_ebitda": 9.7,
+            "ev_revenue": 1.06,
+            "synergy_pct": 9.4,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Vertical Integration"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 299,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2022-0424",
+            "target_company": "Vantage Physician Group",
+            "acquirer": "Bain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2022,
+            "deal_quarter": 4,
+            "deal_type": "SPAC Merger",
+            "geography": "Midwest",
+            "financing_type": "Leveraged",
+            "ev_mm": 132.9,
+            "revenue_mm": 95.6,
+            "ebitda_margin_pct": 11.6,
+            "revenue_growth_pct": 15.0,
+            "ev_ebitda": 15.3,
+            "ev_revenue": 1.39,
+            "synergy_pct": 9.2,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 246,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": true,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0412",
+            "target_company": "Zenith Care",
+            "acquirer": "Bain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2020,
+            "deal_quarter": 3,
+            "deal_type": "Minority Investment",
+            "geography": "Midwest",
+            "financing_type": "Seller Financing",
+            "ev_mm": 472.3,
+            "revenue_mm": 216.7,
+            "ebitda_margin_pct": 18.8,
+            "revenue_growth_pct": 16.2,
+            "ev_ebitda": 17.0,
+            "ev_revenue": 2.18,
+            "synergy_pct": 10.0,
+            "outcome": "Terminated",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Cross-sell"
+            ],
+            "num_bidders": 1,
+            "days_to_close": null,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2017-0264",
+            "target_company": "Charter Multispecialty Group",
+            "acquirer": "Bain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2017,
+            "deal_quarter": 2,
+            "deal_type": "Platform Investment",
+            "geography": "West Coast",
+            "financing_type": "Earnout",
+            "ev_mm": 506.0,
+            "revenue_mm": 284.3,
+            "ebitda_margin_pct": 17.0,
+            "revenue_growth_pct": 6.0,
+            "ev_ebitda": 12.0,
+            "ev_revenue": 1.78,
+            "synergy_pct": 6.2,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Scale",
+              "Geographic Expansion",
+              "Platform Build",
+              "Cost Synergies"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 207,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 18,
+        "acquirer_median_ev_ebitda": 14.7,
+        "acquirer_median_ev_revenue": 2.15,
+        "direct_count": 3,
+        "direct_median_ev_ebitda": 11.9
+      },
+      "conviction": {
+        "level": "High",
+        "direct_precedents": 3,
+        "exact_sector_deals": 2,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so a sale of this target may be contested and Bain Capital may face other bidders (F36)."
+        },
+        {
+          "title": "Low recent pace",
+          "detail": "The data shows 1 deal in 2023-2024 against a peer median of 3, so current appetite is uncertain. The data doesn't show why.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Withdrawn and terminated deals",
+          "detail": "The data shows 2 withdrawn and 2 terminated deals, including MA-2020-0412 in Healthcare Services. The data doesn't show the reasons.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2020-0412",
+            "MA-2020-0412"
+          ],
+          "explanation": ""
+        },
+        {
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: the data doesn't show whether Bain Capital would treat this target as a platform or an add-on. Exit path and holding period are also not shown, and antitrust and financing are unassessed.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Bain Capital: 3 direct precedents and 7 Physician Groups deals make it a credible sponsor call for this $200.0M target",
+      "overview": "Bain Capital is a Financial Sponsor ranked 3 of 10 with a ranking score of 17.3 (F1, F2). The data shows 24 deals, 18 closed, from 2015-2024, with a median size of $102.9M and a largest of $4,433.3M (F3, F14). Its largest buying areas are Physician Groups (7 deals), Medical Devices (3) and Dental (3) (F4, F5, F6). It has 1 deal in 2023-2024, last in 2024 Q1 (F16).",
+      "fit_thesis": "The target is $200.0M in Healthcare Services, and $200.0M is larger than 62% of Bain Capital's deals (F15). Its 7 Physician Groups deals (similarity 0.83) and 2 Behavioral Health deals (0.77) sit in the direct precedent sectors (F4, F8). It has 3 direct precedents (F20), against a peer median of 2 (F31), so depth in this deal profile separates it from a typical sponsor. Its 2 Healthcare Services deals are above the peer median of 1 (F7, F30). Regional targets (23 of 24 deals) are close to the peer median of 80%, so regional focus is not a distinguishing trait (F19, F34). The 38% private-target share is also near the 36% peer median (F17, F32).",
+      "precedent_commentary": "The three direct precedents are MA-2020-0232 (Healthcare Services, $330.6M, 11.9x), MA-2021-0163 (Physician Groups, $207.4M, 9.7x) and MA-2022-0424 (Physician Groups, $132.9M, 15.3x). All closed, and MA-2021-0163 is closest to the $200.0M target in size. MA-2020-0412 ($472.3M) was terminated, and MA-2017-0264 ($506.0M, 2017) falls outside the direct definition.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and EV/Revenue of 2.90x (F23). Bain Capital's 3 direct precedents have a median EV/EBITDA of 11.9x (F21). Across its 18 closed deals, the median is 14.7x EV/EBITDA and 2.15x EV/Revenue (F24).",
+      "conviction_reason": "Conviction is High because Bain Capital has 3 direct precedents, which meets the threshold of 3 or more, and 2 deals in Healthcare Services (F35, F20, F22). The normal-severity data risk does not lower it.",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F14",
+          "F16"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F7",
+          "F8",
+          "F15",
+          "F17",
+          "F19",
+          "F20",
+          "F30",
+          "F31",
+          "F32",
+          "F34"
+        ],
+        "precedent_commentary": [
+          "MA-2020-0232",
+          "MA-2021-0163",
+          "MA-2022-0424",
+          "MA-2020-0412",
+          "MA-2017-0264",
+          "F20"
+        ],
+        "valuation_commentary": [
+          "F21",
+          "F23",
+          "F24"
+        ],
+        "conviction_reason": [
+          "F35",
+          "F20",
+          "F22"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "Welsh Carson",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 4,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Welsh Carson",
+        "score": 16.847304602844588,
+        "contributions": [
+          {
+            "sector": "Physician Groups",
+            "deal_count": 5,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 5,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 4,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 3,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 2,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 1,
+            "weight": 1.0
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 1,
+            "weight": 0.4660413824283704
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 1,
+            "weight": 0.43852900965351466
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0094",
+            "target_company": "Liberty Behavioral Services",
+            "acquirer": "Welsh Carson",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2020,
+            "deal_quarter": 1,
+            "deal_type": "Strategic Acquisition",
+            "geography": "Midwest",
+            "financing_type": "Earnout",
+            "ev_mm": 393.8,
+            "revenue_mm": 231.6,
+            "ebitda_margin_pct": 14.1,
+            "revenue_growth_pct": 15.9,
+            "ev_ebitda": 14.8,
+            "ev_revenue": 1.7,
+            "synergy_pct": 14.6,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Vertical Integration"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 212,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0083",
+            "target_company": "Jefferson Ambulatory Care",
+            "acquirer": "Welsh Carson",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2021,
+            "deal_quarter": 3,
+            "deal_type": "Management Buyout",
+            "geography": "Midwest",
+            "financing_type": "All Cash",
+            "ev_mm": 75.3,
+            "revenue_mm": 22.1,
+            "ebitda_margin_pct": 10.3,
+            "revenue_growth_pct": 14.7,
+            "ev_ebitda": 17.8,
+            "ev_revenue": 3.4,
+            "synergy_pct": 6.9,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cross-sell"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 375,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0376",
+            "target_company": "Valley Specialty Care",
+            "acquirer": "Welsh Carson",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2019,
+            "deal_quarter": 2,
+            "deal_type": "Management Buyout",
+            "geography": "Southwest",
+            "financing_type": "Seller Financing",
+            "ev_mm": 172.3,
+            "revenue_mm": 134.6,
+            "ebitda_margin_pct": 15.4,
+            "revenue_growth_pct": 13.0,
+            "ev_ebitda": 7.2,
+            "ev_revenue": 1.28,
+            "synergy_pct": 4.7,
+            "outcome": "Pending",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Diversification"
+            ],
+            "num_bidders": 2,
+            "days_to_close": null,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0070",
+            "target_company": "Select Medical Associates",
+            "acquirer": "Welsh Carson",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2020,
+            "deal_quarter": 1,
+            "deal_type": "Leveraged Buyout",
+            "geography": "Southeast",
+            "financing_type": "Mixed",
+            "ev_mm": 504.2,
+            "revenue_mm": 466.9,
+            "ebitda_margin_pct": 12.0,
+            "revenue_growth_pct": 14.7,
+            "ev_ebitda": 14.1,
+            "ev_revenue": 1.08,
+            "synergy_pct": 4.7,
+            "outcome": "Withdrawn",
+            "rationale_tags": [
+              "Scale",
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 1,
+            "days_to_close": null,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2018-0214",
+            "target_company": "Highland Medical Practice",
+            "acquirer": "Welsh Carson",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2018,
+            "deal_quarter": 2,
+            "deal_type": "Management Buyout",
+            "geography": "Midwest",
+            "financing_type": "Leveraged",
+            "ev_mm": 63.6,
+            "revenue_mm": 44.5,
+            "ebitda_margin_pct": 15.7,
+            "revenue_growth_pct": 12.5,
+            "ev_ebitda": 7.8,
+            "ev_revenue": 1.43,
+            "synergy_pct": 6.5,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 4,
+            "days_to_close": 228,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 18,
+        "acquirer_median_ev_ebitda": 16.200000000000003,
+        "acquirer_median_ev_revenue": 3.0999999999999996,
+        "direct_count": 1,
+        "direct_median_ev_ebitda": 14.8
+      },
+      "conviction": {
+        "level": "Medium",
+        "direct_precedents": 1,
+        "exact_sector_deals": 1,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Thin evidence",
+          "detail": "1 direct precedent(s); fewer than 2 closely comparable closed deals",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2020-0094"
+          ],
+          "explanation": "Only 1 direct precedent (MA-2020-0094) supports the case, so one deal drives the precedent read."
+        },
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Welsh Carson may face competing sponsors."
+        },
+        {
+          "title": "Core sector depth",
+          "detail": "The data shows 1 Healthcare Services deal, equal to the peer median of 1. Healthcare Services focus is not a distinguishing trait of this buyer.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Withdrawn deals",
+          "detail": "3 of its deals were withdrawn and 1 precedent is pending. The data doesn't show the reasons. Outside the data: this could point to pricing or diligence friction.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2020-0070",
+            "MA-2019-0376"
+          ],
+          "explanation": ""
+        },
+        {
+          "title": "Financing and antitrust",
+          "detail": "Outside the data: financing capacity, antitrust review and integration with existing portfolio holdings are not covered by the facts.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Welsh Carson buys across Physician Groups and Behavioral Health, rank 4 of 10, with one direct precedent near this EV",
+      "overview": "Welsh Carson is a Financial Sponsor with 23 deals in the data, 18 closed, from 2017-2023 (F1, F3). Deal size runs from $6.5M (MA-2019-0284) to $4,212.4M (MA-2021-0452), with a median of $172.3M (F13). It holds rank 4 of 10 with a ranking score of 16.8 (F2). It has 3 deals in 2023-2024, and its last deal was 2023 Q3 (MA-2023-0354) (F15).",
+      "fit_thesis": "The sector mix is adjacent rather than core. Welsh Carson has 5 deals in Physician Groups (similarity 0.83) and 5 in Behavioral Health (0.77) (F4, F5). It has only 1 deal in Healthcare Services itself (F9). The $200.0M target is larger than 57% of its deals (F14). 12 of 23 deals (52%) were private targets, against a peer median of 36% (F16, F31). 20 of 23 (87%) were regional targets, near the peer median of 80%, so that trait is not specific to this buyer (F18, F33). 8 of 23 targets (35%) had margins at or above 16.8%, near the peer median of 39% (F17, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "MA-2020-0094 is the only direct precedent: Behavioral Health, $393.8M, closed, 14.8x EV/EBITDA, 1.70x EV/Revenue (F19, F20). MA-2021-0083 is the only Healthcare Services deal, at $75.3M and 17.8x, but it falls below the $100.0M floor and is not direct (F9, F21). The three Physician Groups deals are not direct: MA-2019-0376 is pending, MA-2020-0070 was withdrawn, and MA-2018-0214 is $63.6M and from 2018.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F22). Welsh Carson's 18 closed deals show a median EV/EBITDA of 16.2x and a median EV/Revenue of 3.10x (F23). Its one direct precedent was at 14.8x (F20). The sample of direct precedents is a single deal, so the data doesn't show a reliable direct-precedent multiple.",
+      "conviction_reason": "Conviction is Medium because Welsh Carson has 1 direct precedent (MA-2020-0094) and 1 deal in Healthcare Services, short of the 3 direct precedents needed for High (F34, F19, F21). The two data risks are normal severity, so they do not lower it.",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F2",
+          "F3",
+          "F13",
+          "F15"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F9",
+          "F14",
+          "F16",
+          "F17",
+          "F18",
+          "F31",
+          "F32",
+          "F33"
+        ],
+        "precedent_commentary": [
+          "F9",
+          "F19",
+          "F20",
+          "F21",
+          "MA-2020-0094",
+          "MA-2021-0083",
+          "MA-2019-0376",
+          "MA-2020-0070",
+          "MA-2018-0214"
+        ],
+        "valuation_commentary": [
+          "F20",
+          "F22",
+          "F23"
+        ],
+        "conviction_reason": [
+          "F19",
+          "F21",
+          "F34",
+          "F35",
+          "F36"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "Blackstone",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 5,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Blackstone",
+        "score": 15.6721342484814,
+        "contributions": [
+          {
+            "sector": "Health Insurance",
+            "deal_count": 6,
+            "weight": 0.5204834387696163
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 2,
+            "weight": 1.0
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 4,
+            "weight": 0.4660413824283704
+          },
+          {
+            "sector": "Physician Groups",
+            "deal_count": 2,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 2,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 2,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 2,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 3,
+            "weight": 0.43852900965351466
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 1,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0195",
+            "target_company": "Evergreen Care Solutions",
+            "acquirer": "Blackstone",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2021,
+            "deal_quarter": 1,
+            "deal_type": "Bolt-on Acquisition",
+            "geography": "Southwest",
+            "financing_type": "All Cash",
+            "ev_mm": 299.0,
+            "revenue_mm": 122.0,
+            "ebitda_margin_pct": 12.9,
+            "revenue_growth_pct": 17.5,
+            "ev_ebitda": 14.6,
+            "ev_revenue": 2.45,
+            "synergy_pct": 13.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "High Growth",
+              "Vertical Integration"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 404,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0407",
+            "target_company": "Peak Medical Management",
+            "acquirer": "Blackstone",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2021,
+            "deal_quarter": 2,
+            "deal_type": "SPAC Merger",
+            "geography": "Midwest",
+            "financing_type": "Earnout",
+            "ev_mm": 341.7,
+            "revenue_mm": 224.8,
+            "ebitda_margin_pct": 16.2,
+            "revenue_growth_pct": 10.2,
+            "ev_ebitda": 10.0,
+            "ev_revenue": 1.52,
+            "synergy_pct": 4.8,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 115,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": true,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2018-0122",
+            "target_company": "Western Multispecialty Group",
+            "acquirer": "Blackstone",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2018,
+            "deal_quarter": 4,
+            "deal_type": "Platform Investment",
+            "geography": "Mountain West",
+            "financing_type": "Stock",
+            "ev_mm": 251.7,
+            "revenue_mm": 211.5,
+            "ebitda_margin_pct": 11.4,
+            "revenue_growth_pct": 18.1,
+            "ev_ebitda": 9.7,
+            "ev_revenue": 1.19,
+            "synergy_pct": 2.7,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "High Growth",
+              "Market Share"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 112,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0040",
+            "target_company": "Green Care Providers",
+            "acquirer": "Blackstone",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2020,
+            "deal_quarter": 4,
+            "deal_type": "Bolt-on Acquisition",
+            "geography": "Multi-Regional",
+            "financing_type": "All Cash",
+            "ev_mm": 54.0,
+            "revenue_mm": 35.8,
+            "ebitda_margin_pct": 7.3,
+            "revenue_growth_pct": 13.1,
+            "ev_ebitda": 9.7,
+            "ev_revenue": 1.51,
+            "synergy_pct": 12.3,
+            "outcome": "Withdrawn",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "Cost Synergies"
+            ],
+            "num_bidders": 1,
+            "days_to_close": null,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0478",
+            "target_company": "Silver Behavioral Services",
+            "acquirer": "Blackstone",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2019,
+            "deal_quarter": 1,
+            "deal_type": "Platform Investment",
+            "geography": "Multi-Regional",
+            "financing_type": "Stock",
+            "ev_mm": 57.8,
+            "revenue_mm": 18.5,
+            "ebitda_margin_pct": 13.7,
+            "revenue_growth_pct": 9.7,
+            "ev_ebitda": 14.5,
+            "ev_revenue": 3.12,
+            "synergy_pct": 3.0,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "Cost Synergies"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 298,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 0.7735737130957595
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 22,
+        "acquirer_median_ev_ebitda": 17.15,
+        "acquirer_median_ev_revenue": 2.94,
+        "direct_count": 2,
+        "direct_median_ev_ebitda": 12.3
+      },
+      "conviction": {
+        "level": "Medium",
+        "direct_precedents": 2,
+        "exact_sector_deals": 2,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Blackstone would likely face other bidders here (F36)."
+        },
+        {
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: the data doesn't show whether Blackstone would treat a $200.0M regional target as a platform or an add-on, and the target sits in the lower part of its deal-size range.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Thin direct sector history",
+          "detail": "The data shows only 2 Healthcare Services deals and 2 direct precedents, both from 2021, with none in the data since. Several shortlisted sponsors have 3 direct precedents (Nordic Capital, Bain Capital, New Mountain Capital, Advent International).",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Exit path and holding period",
+          "detail": "Outside the data: the data doesn't show Blackstone's hold periods or exit routes, so exit fit for a regional private target is untested.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Blackstone has 2 direct precedents and buys across Physician Groups and Behavioral Health, though peers match on most traits",
+      "overview": "Blackstone is a Financial Sponsor with 25 deals in the data, 22 closed, from 2015 to 2024 (F1, F3). Deal sizes run from $10.5M (MA-2023-0456) to $14,353.7M (MA-2019-0498), with a median of $341.7M (F14). Its largest sector is Health Insurance with 6 deals, followed by Revenue Cycle with 4 (F4, F6). It did 3 deals in 2023-2024, and its last deal was in 2024 Q2 (MA-2024-0347) (F16). It ranks 5 of 10 with a score of 15.7 (F2).",
+      "fit_thesis": "Blackstone has 2 deals in Healthcare Services, 2 in Physician Groups and 2 in Behavioral Health, at similarity weights of 1.00, 0.83 and 0.77 (F5, F7, F8). The target's $200.0M EV is larger than 32% of its deals, so it sits in the lower part of its size range (F15). 19 of 25 targets were regional, 9 of 25 were private, and 12 of 25 had margins at or above 16.8% (F17, F18, F19). Those shares are close to the peer medians of 80%, 36% and 39%, so they are typical for sponsors and do not set Blackstone apart (F32, F33, F34). What does set it apart is the breadth of its adjacent healthcare sector mix, including Dental, Medical Devices and Health Insurance (F4, F9, F10).",
+      "precedent_commentary": "MA-2021-0195 ($299.0M, 14.6x EV/EBITDA) and MA-2021-0407 ($341.7M, 10.0x) are the 2 direct precedents, both closed in 2021 in Healthcare Services (F20). Both are in the same EV band as the target. MA-2018-0122 is a closed Physician Groups deal at $251.7M but falls outside the 2020-2024 window. MA-2020-0040 was withdrawn and MA-2019-0478 is $57.8M, so both are weaker guides. Blackstone's 2 direct precedents match the peer median of 2 (F31).",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F23). Blackstone's 2 direct precedents have a median EV/EBITDA of 12.3x (F21). Across all 22 of its closed deals, its median EV/EBITDA is 17.1x and its median EV/Revenue is 2.94x (F24). That wider set includes much larger deals and other sectors, so the data doesn't show what Blackstone would pay for this target.",
+      "conviction_reason": "Conviction is Medium because Blackstone has 2 direct precedents, short of the 3 needed for High, and 2 deals in Healthcare Services (F35). The Competitive process risk is normal severity, so it does not lower the level (F36).",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "F6",
+          "F14",
+          "F16"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F7",
+          "F8",
+          "F9",
+          "F10",
+          "F15",
+          "F17",
+          "F18",
+          "F19",
+          "F32",
+          "F33",
+          "F34"
+        ],
+        "precedent_commentary": [
+          "F20",
+          "F31",
+          "MA-2021-0195",
+          "MA-2021-0407",
+          "MA-2018-0122",
+          "MA-2020-0040",
+          "MA-2019-0478"
+        ],
+        "valuation_commentary": [
+          "F21",
+          "F23",
+          "F24"
+        ],
+        "conviction_reason": [
+          "F35",
+          "F36",
+          "F20",
+          "F22"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "Warburg Pincus",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 6,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Warburg Pincus",
+        "score": 14.931938045888973,
+        "contributions": [
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 5,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 4,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Physician Groups",
+            "deal_count": 3,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 3,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 3,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 3,
+            "weight": 0.43852900965351466
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 1,
+            "weight": 0.5204834387696163
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 1,
+            "weight": 0.4660413824283704
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0191",
+            "target_company": "Premier Care Providers",
+            "acquirer": "Warburg Pincus",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2023,
+            "deal_quarter": 2,
+            "deal_type": "Leveraged Buyout",
+            "geography": "Great Plains",
+            "financing_type": "All Cash",
+            "ev_mm": 111.3,
+            "revenue_mm": 58.0,
+            "ebitda_margin_pct": 13.5,
+            "revenue_growth_pct": 5.0,
+            "ev_ebitda": 14.0,
+            "ev_revenue": 1.92,
+            "synergy_pct": 5.5,
+            "outcome": "Withdrawn",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cross-sell"
+            ],
+            "num_bidders": 5,
+            "days_to_close": null,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2022-0402",
+            "target_company": "Bridge Physician Group",
+            "acquirer": "Warburg Pincus",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2022,
+            "deal_quarter": 2,
+            "deal_type": "Strategic Acquisition",
+            "geography": "National",
+            "financing_type": "Seller Financing",
+            "ev_mm": 18.7,
+            "revenue_mm": 16.1,
+            "ebitda_margin_pct": 16.4,
+            "revenue_growth_pct": 10.8,
+            "ev_ebitda": 12.1,
+            "ev_revenue": 1.16,
+            "synergy_pct": 15.8,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Cross-sell"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 266,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2017-0074",
+            "target_company": "Bridge Multispecialty Group",
+            "acquirer": "Warburg Pincus",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2017,
+            "deal_quarter": 4,
+            "deal_type": "Strategic Acquisition",
+            "geography": "Mountain West",
+            "financing_type": "Stock",
+            "ev_mm": 11.4,
+            "revenue_mm": 5.1,
+            "ebitda_margin_pct": 9.8,
+            "revenue_growth_pct": 10.7,
+            "ev_ebitda": 14.5,
+            "ev_revenue": 2.24,
+            "synergy_pct": 11.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Diversification"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 318,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2018-0241",
+            "target_company": "Silver Psychiatric Services",
+            "acquirer": "Warburg Pincus",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2018,
+            "deal_quarter": 1,
+            "deal_type": "Recapitalization",
+            "geography": "Southwest",
+            "financing_type": "Seller Financing",
+            "ev_mm": 26.6,
+            "revenue_mm": 10.3,
+            "ebitda_margin_pct": 14.8,
+            "revenue_growth_pct": 21.1,
+            "ev_ebitda": 14.4,
+            "ev_revenue": 2.59,
+            "synergy_pct": 9.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Market Share"
+            ],
+            "num_bidders": 5,
+            "days_to_close": 182,
+            "target_ownership": "Public"
+          },
+          "is_direct": false,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0421",
+            "target_company": "Titan Integrated Behavioral",
+            "acquirer": "Warburg Pincus",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2023,
+            "deal_quarter": 1,
+            "deal_type": "Platform Investment",
+            "geography": "Southeast",
+            "financing_type": "Earnout",
+            "ev_mm": 20.9,
+            "revenue_mm": 8.6,
+            "ebitda_margin_pct": 12.9,
+            "revenue_growth_pct": 19.3,
+            "ev_ebitda": 9.0,
+            "ev_revenue": 2.44,
+            "synergy_pct": 2.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "High Growth",
+              "Cost Synergies"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 80,
+            "target_ownership": "Public"
+          },
+          "is_direct": false,
+          "sector_weight": 0.7735737130957595
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 16,
+        "acquirer_median_ev_ebitda": 15.600000000000001,
+        "acquirer_median_ev_revenue": 2.5149999999999997,
+        "direct_count": 0,
+        "direct_median_ev_ebitda": null
+      },
+      "conviction": {
+        "level": "Low",
+        "direct_precedents": 0,
+        "exact_sector_deals": 0,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Thin evidence",
+          "detail": "0 direct precedent(s); fewer than 2 closely comparable closed deals",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": "With 0 direct precedents, the data gives little proof that Warburg Pincus has bought at this size and sector (F33)."
+        },
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Warburg Pincus may face competition on this asset (F34)."
+        },
+        {
+          "title": "Stronger shortlist alternatives",
+          "detail": "Several shortlisted buyers have more direct precedents, such as Nordic Capital and Bain Capital with 3 each. Warburg Pincus has 0 (F18).",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Withdrawn and terminated deals",
+          "detail": "It has 4 withdrawn and 2 terminated deals, including MA-2023-0191 in Physician Groups. Outside the data: the reasons are unknown, so execution or pricing discipline is untested.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2023-0191",
+            "MA-2023-0191"
+          ],
+          "explanation": ""
+        },
+        {
+          "title": "Financing and antitrust",
+          "detail": "Outside the data: the facts say nothing about fund capacity or regulatory review for a regional healthcare services deal.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Warburg Pincus buys across adjacent healthcare sectors but has 0 direct precedents; call only as a breadth-based, low-conviction outreach",
+      "overview": "Warburg Pincus is a Financial Sponsor with 23 deals in the data, 16 closed, from 2016-2024 (F1, F3). Deal sizes run from $11.4M (MA-2017-0074) to $2,124.3M (MA-2021-0482), with a median of $106.1M (F12). It has 4 deals in 2023-2024, and its last deal was in 2024 Q1 (MA-2024-0186) (F14). Its ranking score is 14.9, rank 6 of 10 (F2).",
+      "fit_thesis": "The fit rests on breadth, not on direct experience. Warburg Pincus has 5 deals in Home Health/Hospice, 4 in Behavioral Health, 3 in Physician Groups and 3 in Dental (F4, F5, F6, F7). Physician Groups carries the highest similarity weight to Healthcare Services at 0.83, and Behavioral Health is at 0.77 (F5, F6). The $200.0M target is larger than 65% of its deals (F13). Its 74% regional share is near the peer median of 80%, so regional focus does not set it apart (F17, F31). The data doesn't show any Healthcare Services deal for this buyer (F19). Outside the data: platform versus add-on fit, exit path and holding period are not covered.",
+      "precedent_commentary": "The data shows 0 direct precedents (F18). The 5 deals in the table are adjacent only. MA-2023-0191 is closest in size at $111.3M in Physician Groups, but it was withdrawn. The other 4 are closed, at $11.4M-$26.6M EV, well below the target's $200.0M. They show sector familiarity, not deals at this size.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F20). Warburg Pincus's 16 closed deals show median EV/EBITDA of 15.6x and median EV/Revenue of 2.51x (F21). Those deals span many sectors, and the data doesn't show what it paid in Healthcare Services.",
+      "conviction_reason": "Conviction is Low because Warburg Pincus has 0 direct precedents and 0 deals in Healthcare Services, below the thresholds for Medium (F18, F19, F32). The peer median is 2 direct precedents (F28).",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F2",
+          "F3",
+          "F12",
+          "F14"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F6",
+          "F7",
+          "F13",
+          "F17",
+          "F19",
+          "F31"
+        ],
+        "precedent_commentary": [
+          "F18",
+          "MA-2023-0191",
+          "MA-2022-0402",
+          "MA-2017-0074",
+          "MA-2018-0241",
+          "MA-2023-0421"
+        ],
+        "valuation_commentary": [
+          "F20",
+          "F21"
+        ],
+        "conviction_reason": [
+          "F18",
+          "F19",
+          "F28",
+          "F32"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "New Mountain Capital",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 7,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "New Mountain Capital",
+        "score": 14.710085820990438,
+        "contributions": [
+          {
+            "sector": "Physician Groups",
+            "deal_count": 5,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 5,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 3,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 1,
+            "weight": 1.0
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 2,
+            "weight": 0.4660413824283704
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 2,
+            "weight": 0.43852900965351466
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 1,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 1,
+            "weight": 0.5204834387696163
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2022-0377",
+            "target_company": "National Behavioral Services",
+            "acquirer": "New Mountain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2022,
+            "deal_quarter": 4,
+            "deal_type": "Platform Investment",
+            "geography": "Midwest",
+            "financing_type": "Cash + Stock",
+            "ev_mm": 228.4,
+            "revenue_mm": 89.9,
+            "ebitda_margin_pct": 17.4,
+            "revenue_growth_pct": 20.9,
+            "ev_ebitda": 15.6,
+            "ev_revenue": 2.54,
+            "synergy_pct": 5.9,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "High Growth",
+              "Diversification"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 165,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2022-0393",
+            "target_company": "Star Behavioral Health",
+            "acquirer": "New Mountain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2022,
+            "deal_quarter": 3,
+            "deal_type": "Recapitalization",
+            "geography": "West Coast",
+            "financing_type": "All Cash",
+            "ev_mm": 291.4,
+            "revenue_mm": 134.3,
+            "ebitda_margin_pct": 9.4,
+            "revenue_growth_pct": 11.5,
+            "ev_ebitda": 8.2,
+            "ev_revenue": 2.17,
+            "synergy_pct": 2.8,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Market Share"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 123,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2022-0165",
+            "target_company": "Coastal Psychiatric Services",
+            "acquirer": "New Mountain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2022,
+            "deal_quarter": 2,
+            "deal_type": "Platform Investment",
+            "geography": "Great Plains",
+            "financing_type": "All Cash",
+            "ev_mm": 314.8,
+            "revenue_mm": 153.6,
+            "ebitda_margin_pct": 10.6,
+            "revenue_growth_pct": 9.3,
+            "ev_ebitda": 11.2,
+            "ev_revenue": 2.05,
+            "synergy_pct": 2.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "Cross-sell"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 220,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2018-0470",
+            "target_company": "Evergreen Health Management",
+            "acquirer": "New Mountain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2018,
+            "deal_quarter": 4,
+            "deal_type": "Leveraged Buyout",
+            "geography": "Midwest",
+            "financing_type": "Cash + Stock",
+            "ev_mm": 121.9,
+            "revenue_mm": 37.2,
+            "ebitda_margin_pct": 18.7,
+            "revenue_growth_pct": 8.4,
+            "ev_ebitda": 12.3,
+            "ev_revenue": 3.28,
+            "synergy_pct": 5.5,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cost Synergies"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 142,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0246",
+            "target_company": "Platinum Medical Practice",
+            "acquirer": "New Mountain Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2019,
+            "deal_quarter": 1,
+            "deal_type": "Strategic Acquisition",
+            "geography": "Mid-Atlantic",
+            "financing_type": "Earnout",
+            "ev_mm": 250.0,
+            "revenue_mm": 147.1,
+            "ebitda_margin_pct": 11.9,
+            "revenue_growth_pct": 5.6,
+            "ev_ebitda": 9.2,
+            "ev_revenue": 1.7,
+            "synergy_pct": 15.5,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Market Share"
+            ],
+            "num_bidders": 5,
+            "days_to_close": 375,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 14,
+        "acquirer_median_ev_ebitda": 12.850000000000001,
+        "acquirer_median_ev_revenue": 2.495,
+        "direct_count": 3,
+        "direct_median_ev_ebitda": 11.2
+      },
+      "conviction": {
+        "level": "High",
+        "direct_precedents": 3,
+        "exact_sector_deals": 1,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so New Mountain would likely face other bidders here."
+        },
+        {
+          "title": "Limited Healthcare Services depth",
+          "detail": "It has 1 deal in Healthcare Services, equal to the peer median, and its direct precedents are all Behavioral Health. The data doesn't show experience in the target's own niche.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Withdrawn deals",
+          "detail": "4 of its deals were withdrawn and 0 terminated. The data doesn't show the reasons, so execution or pricing discipline is unclear.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: the data doesn't show whether New Mountain holds a related platform that this target would join, or whether it would treat the target as a new platform. This affects the price it can pay and its exit path.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "New Mountain Capital has 3 direct precedents, all Behavioral Health, plus 5 Physician Groups deals, a deal profile matching this $200.0M target",
+      "overview": "New Mountain Capital is a Financial Sponsor with 21 deals in the data, 14 closed, from 2015-2024 (F1, F3). Deal sizes run from $10.8M (MA-2021-0029) to $6,931.9M (MA-2021-0401), with a median of $121.9M (F13). It buys most in Physician Groups (5) and Behavioral Health (5), then Dental (3) (F4, F5, F6). It had 2 deals in 2023-2024; the last was in 2024 Q2 (MA-2024-0216) (F15).",
+      "fit_thesis": "The target is a $200.0M private regional Healthcare Services business. New Mountain has 3 direct precedents (F19), against a peer median of 2 (F30). Its sector mix is concentrated in adjacent sectors: Physician Groups at 0.83 similarity and Behavioral Health at 0.77 (F4, F5). It has only 1 deal in Healthcare Services itself, equal to the peer median of 1 (F7, F29). Its private-target share is 62% against a peer median of 36%, and this sets it apart (F16, F31). Its regional share of 76% is near the peer median of 80%, so it is not specific to this buyer (F18, F33). The target's $200.0M EV is larger than 62% of its deals (F14).",
+      "precedent_commentary": "The 3 direct precedents are all Behavioral Health deals from 2022: MA-2022-0377 at $228.4M, MA-2022-0393 at $291.4M and MA-2022-0165 at $314.8M. They are the closest evidence of New Mountain buying at this size. Their EV/EBITDA ranges from 8.2x to 15.6x. MA-2018-0470 is its Healthcare Services deal at $121.9M, and MA-2019-0246 is a Physician Groups deal at $250.0M. Neither counts as direct.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). New Mountain's 3 direct precedents have median EV/EBITDA of 11.2x (F20). Across its 14 closed deals, the medians are EV/EBITDA 12.9x and EV/Revenue 2.50x (F23). The data doesn't show what multiple it would pay for this target.",
+      "conviction_reason": "Conviction is High because New Mountain has 3 direct precedents, which meets the threshold of 3 or more (F19). It also has 1 deal in Healthcare Services (F21). The normal-severity data risk does not lower it (F34, F35).",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F13",
+          "F15"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F7",
+          "F14",
+          "F16",
+          "F18",
+          "F19",
+          "F29",
+          "F30",
+          "F31",
+          "F33"
+        ],
+        "precedent_commentary": [
+          "MA-2022-0377",
+          "MA-2022-0393",
+          "MA-2022-0165",
+          "MA-2018-0470",
+          "MA-2019-0246",
+          "F19"
+        ],
+        "valuation_commentary": [
+          "F20",
+          "F22",
+          "F23"
+        ],
+        "conviction_reason": [
+          "F19",
+          "F21",
+          "F34",
+          "F35"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "KKR",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 8,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "KKR",
+        "score": 12.186470354109325,
+        "contributions": [
+          {
+            "sector": "Physician Groups",
+            "deal_count": 5,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 3,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 3,
+            "weight": 0.5204834387696163
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 1,
+            "weight": 1.0
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 1,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 1,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Home Health/Hospice",
+            "deal_count": 1,
+            "weight": 0.6244360851225552
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 1,
+            "weight": 0.4660413824283704
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2024-0020",
+            "target_company": "Zenith Integrated Behavioral",
+            "acquirer": "KKR",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2024,
+            "deal_quarter": 3,
+            "deal_type": "Strategic Acquisition",
+            "geography": "Southeast",
+            "financing_type": "Seller Financing",
+            "ev_mm": 394.2,
+            "revenue_mm": 121.7,
+            "ebitda_margin_pct": 14.1,
+            "revenue_growth_pct": 13.7,
+            "ev_ebitda": 9.0,
+            "ev_revenue": 3.24,
+            "synergy_pct": 18.2,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Vertical Integration"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 242,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0352",
+            "target_company": "Granite Medical",
+            "acquirer": "KKR",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2019,
+            "deal_quarter": 1,
+            "deal_type": "Recapitalization",
+            "geography": "Midwest",
+            "financing_type": "Cash + Stock",
+            "ev_mm": 365.2,
+            "revenue_mm": 110.7,
+            "ebitda_margin_pct": 15.2,
+            "revenue_growth_pct": 17.0,
+            "ev_ebitda": 16.8,
+            "ev_revenue": 3.3,
+            "synergy_pct": 7.9,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Vertical Integration"
+            ],
+            "num_bidders": 5,
+            "days_to_close": 173,
+            "target_ownership": "Public"
+          },
+          "is_direct": false,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0205",
+            "target_company": "Tri Physician Partners",
+            "acquirer": "KKR",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2019,
+            "deal_quarter": 3,
+            "deal_type": "Strategic Acquisition",
+            "geography": "National",
+            "financing_type": "Mixed",
+            "ev_mm": 159.7,
+            "revenue_mm": 63.1,
+            "ebitda_margin_pct": 11.9,
+            "revenue_growth_pct": 11.6,
+            "ev_ebitda": 9.9,
+            "ev_revenue": 2.53,
+            "synergy_pct": 15.2,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Market Share"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 209,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0100",
+            "target_company": "Frontier Physician Partners",
+            "acquirer": "KKR",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2019,
+            "deal_quarter": 4,
+            "deal_type": "Bolt-on Acquisition",
+            "geography": "Midwest",
+            "financing_type": "All Cash",
+            "ev_mm": 149.7,
+            "revenue_mm": 75.6,
+            "ebitda_margin_pct": 13.5,
+            "revenue_growth_pct": 6.4,
+            "ev_ebitda": 11.8,
+            "ev_revenue": 1.98,
+            "synergy_pct": 14.8,
+            "outcome": "Terminated",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Platform Build",
+              "Diversification"
+            ],
+            "num_bidders": 4,
+            "days_to_close": null,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2020-0173",
+            "target_company": "Superior Multispecialty Group",
+            "acquirer": "KKR",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2020,
+            "deal_quarter": 3,
+            "deal_type": "Minority Investment",
+            "geography": "Northeast",
+            "financing_type": "Stock",
+            "ev_mm": 37.3,
+            "revenue_mm": 17.9,
+            "ebitda_margin_pct": 11.9,
+            "revenue_growth_pct": 8.2,
+            "ev_ebitda": 14.9,
+            "ev_revenue": 2.08,
+            "synergy_pct": 4.4,
+            "outcome": "Withdrawn",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Cross-sell"
+            ],
+            "num_bidders": 2,
+            "days_to_close": null,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 11,
+        "acquirer_median_ev_ebitda": 15.7,
+        "acquirer_median_ev_revenue": 2.53,
+        "direct_count": 1,
+        "direct_median_ev_ebitda": 9.0
+      },
+      "conviction": {
+        "level": "Medium",
+        "direct_precedents": 1,
+        "exact_sector_deals": 1,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Thin evidence",
+          "detail": "1 direct precedent(s); fewer than 2 closely comparable closed deals",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2024-0020"
+          ],
+          "explanation": "KKR has only 1 direct precedent (MA-2024-0020), so the data gives fewer than 2 closely comparable closed deals to anchor the case."
+        },
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so KKR would likely face competition for this asset."
+        },
+        {
+          "title": "Sector depth",
+          "detail": "KKR has 1 Healthcare Services deal against 4 each at Nordic Capital and Vista Equity, so core-sector depth is thinner than some shortlist peers.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Deal abandonment",
+          "detail": "KKR has 3 withdrawn and 1 terminated deals in the data, which the data cannot explain.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: whether KKR would treat a $200.0M regional target as a platform or an add-on, and the exit path and holding period, are not shown in the facts.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Antitrust and financing",
+          "detail": "Outside the data: regional overlap with existing KKR holdings could draw antitrust review, and financing terms are not covered by the facts.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "KKR: one direct precedent in Behavioral Health at $394.2M, plus 5 Physician Groups deals and a comparable deal size",
+      "overview": "KKR is a Financial Sponsor with 17 deals in the data, 11 closed, from 2017-2024 (F1, F3). Deal sizes run from $6.1M (MA-2020-0316) to $13,267.6M (MA-2023-0500), with a median of $159.7M (F13). It buys most in Physician Groups (5 deals), then Behavioral Health (3) and Health Insurance (3) (F4, F5, F6). It has 3 deals in 2023-2024, and the last was in 2024 Q3 (MA-2024-0020) (F15).",
+      "fit_thesis": "The $200.0M target is larger than 53% of KKR's deals, so it sits in the middle of their size range (F14). KKR's adjacent sector exposure is real: Physician Groups has a similarity weight of 0.83 and Behavioral Health 0.77 (F4, F5). Its one direct precedent is MA-2024-0020, a Behavioral Health deal at $394.2M (F19). KKR has 1 deal in Healthcare Services itself (F7). Regional targets are 13 of 17 deals (76%), but the peer median is 80%, so regional focus does not set KKR apart (F18, F33). Its 3 deals in 2023-2024 match the peer median of 3 (F15, F26). Share of private targets is 24% against a peer median of 36% (F16, F31). Margin at or above 16.8% is 24% against 39% (F17, F32). Neither suggests a particular pull toward this target profile.",
+      "precedent_commentary": "MA-2024-0020 matters most. It is KKR's only direct precedent: Behavioral Health, $394.2M, closed, 9.0x EV/EBITDA, 3.24x EV/Revenue (F19, F20). MA-2019-0352 is a closed Healthcare Services deal at $365.2M and 16.8x, but it falls outside the 2020-2024 window. MA-2019-0205 is a closed Physician Groups deal at $159.7M and 9.9x, also outside the window. MA-2019-0100 was terminated and MA-2020-0173 was withdrawn (F24).",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). KKR's 11 closed deals show median EV/EBITDA of 15.7x and EV/Revenue of 2.53x (F23). Its single direct precedent was at 9.0x EV/EBITDA (F20). The data does not show what KKR would pay for this target. One direct precedent is too thin to infer a price.",
+      "conviction_reason": "Conviction is Medium because KKR has 1 direct precedent and 1 deal in Healthcare Services, which meets the 1-or-more threshold but not the 3 needed for High (F34). Neither data risk is high severity, so the level is not lowered (F35, F36).",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F13",
+          "F15"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F7",
+          "F14",
+          "F15",
+          "F16",
+          "F17",
+          "F18",
+          "F19",
+          "F26",
+          "F31",
+          "F32",
+          "F33"
+        ],
+        "precedent_commentary": [
+          "MA-2024-0020",
+          "MA-2019-0352",
+          "MA-2019-0205",
+          "MA-2019-0100",
+          "MA-2020-0173",
+          "F19",
+          "F20",
+          "F24"
+        ],
+        "valuation_commentary": [
+          "F20",
+          "F22",
+          "F23"
+        ],
+        "conviction_reason": [
+          "F34",
+          "F35",
+          "F36",
+          "F19",
+          "F21"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "Advent International",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 9,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "Advent International",
+        "score": 11.802859368879275,
+        "contributions": [
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 3,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 3,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 3,
+            "weight": 0.5204834387696163
+          },
+          {
+            "sector": "Medical Devices",
+            "deal_count": 2,
+            "weight": 0.7573052002020729
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 3,
+            "weight": 0.4660413824283704
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 1,
+            "weight": 1.0
+          },
+          {
+            "sector": "Physician Groups",
+            "deal_count": 1,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 1,
+            "weight": 0.43852900965351466
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2024-0120",
+            "target_company": "Crest Care Partners",
+            "acquirer": "Advent International",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2024,
+            "deal_quarter": 2,
+            "deal_type": "Recapitalization",
+            "geography": "Southeast",
+            "financing_type": "Stock",
+            "ev_mm": 303.9,
+            "revenue_mm": 90.4,
+            "ebitda_margin_pct": 13.9,
+            "revenue_growth_pct": 15.5,
+            "ev_ebitda": 9.3,
+            "ev_revenue": 3.36,
+            "synergy_pct": 3.9,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Vertical Integration"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 241,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": true,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0341",
+            "target_company": "Principal Counseling",
+            "acquirer": "Advent International",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2021,
+            "deal_quarter": 4,
+            "deal_type": "Minority Investment",
+            "geography": "Great Plains",
+            "financing_type": "Earnout",
+            "ev_mm": 163.0,
+            "revenue_mm": 88.1,
+            "ebitda_margin_pct": 10.8,
+            "revenue_growth_pct": 16.3,
+            "ev_ebitda": 13.2,
+            "ev_revenue": 1.85,
+            "synergy_pct": 5.2,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Diversification"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 107,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0108",
+            "target_company": "Crown Addiction Treatment",
+            "acquirer": "Advent International",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2023,
+            "deal_quarter": 4,
+            "deal_type": "Recapitalization",
+            "geography": "Mountain West",
+            "financing_type": "All Cash",
+            "ev_mm": 123.0,
+            "revenue_mm": 38.1,
+            "ebitda_margin_pct": 14.5,
+            "revenue_growth_pct": 17.1,
+            "ev_ebitda": 14.6,
+            "ev_revenue": 3.23,
+            "synergy_pct": 7.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Market Share"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 136,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0072",
+            "target_company": "Western Medical Practice",
+            "acquirer": "Advent International",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2021,
+            "deal_quarter": 1,
+            "deal_type": "Merger of Equals",
+            "geography": "National",
+            "financing_type": "Leveraged",
+            "ev_mm": 29.5,
+            "revenue_mm": 14.0,
+            "ebitda_margin_pct": 14.0,
+            "revenue_growth_pct": 5.9,
+            "ev_ebitda": 15.7,
+            "ev_revenue": 2.1,
+            "synergy_pct": 12.6,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Vertical Integration"
+            ],
+            "num_bidders": 1,
+            "days_to_close": 375,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2019-0027",
+            "target_company": "Madison Behavioral Health",
+            "acquirer": "Advent International",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2019,
+            "deal_quarter": 4,
+            "deal_type": "Management Buyout",
+            "geography": "National",
+            "financing_type": "Mixed",
+            "ev_mm": 95.1,
+            "revenue_mm": 29.8,
+            "ebitda_margin_pct": 12.4,
+            "revenue_growth_pct": 12.3,
+            "ev_ebitda": 12.3,
+            "ev_revenue": 3.19,
+            "synergy_pct": 3.8,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Cross-sell"
+            ],
+            "num_bidders": 3,
+            "days_to_close": 217,
+            "target_ownership": "PE-Backed"
+          },
+          "is_direct": false,
+          "sector_weight": 0.7735737130957595
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 15,
+        "acquirer_median_ev_ebitda": 15.5,
+        "acquirer_median_ev_revenue": 3.19,
+        "direct_count": 3,
+        "direct_median_ev_ebitda": 13.2
+      },
+      "conviction": {
+        "level": "High",
+        "direct_precedents": 3,
+        "exact_sector_deals": 1,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Advent may face other bidders for this asset (F35)."
+        },
+        {
+          "title": "Withdrawn and terminated deals",
+          "detail": "Advent has 2 withdrawn and 1 terminated deal in its history. The data doesn't show the reasons, so execution risk on this deal is not measurable.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Thin Healthcare Services history",
+          "detail": "Only 1 of its deals is in Healthcare Services, and the 3 direct precedents come mostly from Behavioral Health. Outside the data: the sector breadth needed for this target may be thinner than the count suggests.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Platform fit, exit and financing",
+          "detail": "Outside the data: platform versus add-on fit, exit path, holding period and financing capacity are not shown in the facts and need diligence before the call.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "Advent has 3 direct precedents in Healthcare Services, Behavioral Health and Physician Groups, and a $200.0M target sits inside its deal range",
+      "overview": "Advent International is a Financial Sponsor with 18 deals in the data, 15 closed, from 2016 to 2024 (F1, F3). Deal sizes run from $13.5M (MA-2016-0302) to $5,536.6M (MA-2016-0231), with a median of $124.0M (F13). It buys in Behavioral Health (3), Dental (3), Health Insurance (3) and Revenue Cycle (3), among others (F4, F5, F6, F8). It closed 3 deals in 2023-2024, the last in 2024 Q4 (MA-2024-0042) (F15).",
+      "fit_thesis": "Advent has 3 direct precedents: MA-2021-0341, MA-2023-0108 and MA-2024-0120 (F19). Two are in Behavioral Health, which is its largest healthcare-adjacent sector at a similarity of 0.77 (F4). It also has 1 Physician Groups deal at 0.83 (F10). The target's $200.0M EV is larger than 61% of its deals (F14). Its 3 direct precedents sit above the peer median of 2 (F30). Its 1 Healthcare Services deal matches the peer median of 1, so that count does not set it apart (F9, F29). Its 3 deals in 2023-2024 equal the peer median of 3, so recent pace is typical (F15, F26). Its regional mix of 13 of 18 deals (72%) is near the peer median of 80%, so regional focus is not distinctive (F18, F33). Its 3 direct precedents match Nordic Capital, Bain Capital and New Mountain Capital, so that count does not separate it from them. The data doesn't show a platform or add-on pattern.",
+      "precedent_commentary": "MA-2024-0120 is the most relevant precedent. It is a 2024 Healthcare Services deal at $303.9M, closed at 9.3x EV/EBITDA and 3.36x EV/Revenue. MA-2021-0341 (Behavioral Health, $163.0M, 13.2x) and MA-2023-0108 (Behavioral Health, $123.0M, 14.6x) complete the direct set. MA-2021-0072 and MA-2019-0027 are not direct, because one is below $100.0M EV and the other is from 2019.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F22). Advent's 3 direct precedents have a median EV/EBITDA of 13.2x (F20). Across its 15 closed deals, the median is 15.5x EV/EBITDA and 3.19x EV/Revenue (F23). The data doesn't show what Advent would pay for this target.",
+      "conviction_reason": "Conviction is High because Advent has 3 direct precedents, which meets the threshold of 3 or more (F19, F34). It also has 1 deal in Healthcare Services (F21). The normal-severity data risk does not lower the level.",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F8",
+          "F13",
+          "F15"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F9",
+          "F10",
+          "F14",
+          "F15",
+          "F18",
+          "F19",
+          "F26",
+          "F29",
+          "F30",
+          "F33"
+        ],
+        "precedent_commentary": [
+          "F19",
+          "MA-2024-0120",
+          "MA-2021-0341",
+          "MA-2023-0108",
+          "MA-2021-0072",
+          "MA-2019-0027"
+        ],
+        "valuation_commentary": [
+          "F20",
+          "F22",
+          "F23"
+        ],
+        "conviction_reason": [
+          "F19",
+          "F21",
+          "F34",
+          "F35"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    },
+    {
+      "acquirer": "TPG Capital",
+      "acquirer_type": "Financial Sponsor",
+      "rank": 10,
+      "reserved_slot": false,
+      "ranking": {
+        "acquirer": "TPG Capital",
+        "score": 11.697253599104947,
+        "contributions": [
+          {
+            "sector": "Physician Groups",
+            "deal_count": 3,
+            "weight": 0.8296831478788308
+          },
+          {
+            "sector": "Behavioral Health",
+            "deal_count": 3,
+            "weight": 0.7735737130957595
+          },
+          {
+            "sector": "Health Insurance",
+            "deal_count": 4,
+            "weight": 0.5204834387696163
+          },
+          {
+            "sector": "Dental",
+            "deal_count": 2,
+            "weight": 0.7158203583477499
+          },
+          {
+            "sector": "Health IT",
+            "deal_count": 3,
+            "weight": 0.43852900965351466
+          },
+          {
+            "sector": "Healthcare Services",
+            "deal_count": 1,
+            "weight": 1.0
+          },
+          {
+            "sector": "Pharma/Biotech",
+            "deal_count": 1,
+            "weight": 0.5922801330182955
+          },
+          {
+            "sector": "Revenue Cycle",
+            "deal_count": 1,
+            "weight": 0.4660413824283704
+          }
+        ]
+      },
+      "precedents": [
+        {
+          "transaction": {
+            "transaction_id": "MA-2022-0350",
+            "target_company": "Quality Medical Group",
+            "acquirer": "TPG Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Healthcare Services",
+            "deal_year": 2022,
+            "deal_quarter": 4,
+            "deal_type": "Minority Investment",
+            "geography": "Southeast",
+            "financing_type": "Earnout",
+            "ev_mm": 186.6,
+            "revenue_mm": 62.4,
+            "ebitda_margin_pct": 16.5,
+            "revenue_growth_pct": 15.4,
+            "ev_ebitda": 11.2,
+            "ev_revenue": 2.99,
+            "synergy_pct": 5.3,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Market Share"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 252,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 1.0
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2021-0369",
+            "target_company": "Liberty Addiction Treatment",
+            "acquirer": "TPG Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Behavioral Health",
+            "deal_year": 2021,
+            "deal_quarter": 2,
+            "deal_type": "Leveraged Buyout",
+            "geography": "National",
+            "financing_type": "Earnout",
+            "ev_mm": 117.9,
+            "revenue_mm": 50.6,
+            "ebitda_margin_pct": 8.8,
+            "revenue_growth_pct": 16.0,
+            "ev_ebitda": 8.8,
+            "ev_revenue": 2.33,
+            "synergy_pct": 2.7,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "High Growth",
+              "Diversification"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 121,
+            "target_ownership": "Private"
+          },
+          "is_direct": true,
+          "sector_weight": 0.7735737130957595
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2018-0111",
+            "target_company": "Independence Specialty Care",
+            "acquirer": "TPG Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2018,
+            "deal_quarter": 1,
+            "deal_type": "Management Buyout",
+            "geography": "Multi-Regional",
+            "financing_type": "Earnout",
+            "ev_mm": 23.1,
+            "revenue_mm": 11.4,
+            "ebitda_margin_pct": 12.0,
+            "revenue_growth_pct": 10.4,
+            "ev_ebitda": 8.3,
+            "ev_revenue": 2.02,
+            "synergy_pct": 7.0,
+            "outcome": "Pending",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Market Share"
+            ],
+            "num_bidders": 3,
+            "days_to_close": null,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2018-0415",
+            "target_company": "Metro Medical Associates",
+            "acquirer": "TPG Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2018,
+            "deal_quarter": 4,
+            "deal_type": "SPAC Merger",
+            "geography": "Midwest",
+            "financing_type": "Mixed",
+            "ev_mm": 15.2,
+            "revenue_mm": 6.3,
+            "ebitda_margin_pct": 7.8,
+            "revenue_growth_pct": 6.0,
+            "ev_ebitda": 8.8,
+            "ev_revenue": 2.43,
+            "synergy_pct": 6.4,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "Diversification"
+            ],
+            "num_bidders": 5,
+            "days_to_close": 225,
+            "target_ownership": "Private"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        },
+        {
+          "transaction": {
+            "transaction_id": "MA-2023-0110",
+            "target_company": "Meridian Physician Partners",
+            "acquirer": "TPG Capital",
+            "acquirer_type": "Financial Sponsor",
+            "sector": "Physician Groups",
+            "deal_year": 2023,
+            "deal_quarter": 2,
+            "deal_type": "Strategic Acquisition",
+            "geography": "Mountain West",
+            "financing_type": "Leveraged",
+            "ev_mm": 7.0,
+            "revenue_mm": 4.4,
+            "ebitda_margin_pct": 7.6,
+            "revenue_growth_pct": 17.0,
+            "ev_ebitda": 12.3,
+            "ev_revenue": 1.59,
+            "synergy_pct": 11.0,
+            "outcome": "Closed",
+            "rationale_tags": [
+              "Geographic Expansion",
+              "High Growth",
+              "Vertical Integration"
+            ],
+            "num_bidders": 2,
+            "days_to_close": 164,
+            "target_ownership": "Non-Profit"
+          },
+          "is_direct": false,
+          "sector_weight": 0.8296831478788308
+        }
+      ],
+      "valuation": {
+        "market": {
+          "sector": "Healthcare Services",
+          "min_ev_mm": 100.0,
+          "max_ev_mm": 400.0,
+          "transaction_ids": [
+            "MA-2018-0470",
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0304",
+            "MA-2020-0306",
+            "MA-2020-0408",
+            "MA-2021-0195",
+            "MA-2021-0407",
+            "MA-2022-0350",
+            "MA-2024-0120"
+          ],
+          "median_ev_ebitda": 12.100000000000001,
+          "median_ev_revenue": 2.895
+        },
+        "acquirer_closed_count": 15,
+        "acquirer_median_ev_ebitda": 15.7,
+        "acquirer_median_ev_revenue": 2.43,
+        "direct_count": 2,
+        "direct_median_ev_ebitda": 10.0
+      },
+      "conviction": {
+        "level": "Medium",
+        "direct_precedents": 2,
+        "exact_sector_deals": 1,
+        "downgraded_by": null
+      },
+      "risks": [
+        {
+          "title": "Competitive process",
+          "detail": "5 of 10 comparable closed deals drew 3 or more bidders",
+          "source": "data",
+          "severity": "normal",
+          "transaction_ids": [
+            "MA-2019-0352",
+            "MA-2020-0232",
+            "MA-2020-0306",
+            "MA-2021-0195",
+            "MA-2024-0120"
+          ],
+          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so TPG Capital may face other bidders on this sale."
+        },
+        {
+          "title": "Low recent activity",
+          "detail": "TPG Capital has 1 deal in 2023-2024 against a peer median of 3, and its last deal was 2023 Q2. Outside the data: this may reflect fund timing or capacity.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Size stretch",
+          "detail": "The $200.0M target is above its $87.5M median deal size. Outside the data: financing capacity and fund concentration for this deal size are not shown.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Withdrawn deals",
+          "detail": "2 of its deals were withdrawn. The data doesn't show the reasons, so execution risk is unclear.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Antitrust and integration",
+          "detail": "Outside the data: antitrust review and integration with any existing healthcare holdings are not covered by the facts.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        }
+      ],
+      "headline": "TPG Capital: 2 direct precedents and a $200.0M target above most of its deal sizes, rated Medium",
+      "overview": "TPG Capital is a Financial Sponsor with 18 deals in the data, 15 of them closed, from 2016 to 2023 (F1, F3). Deal sizes run from $7.0M (MA-2023-0110) to $1,387.8M (MA-2022-0172), with a median of $87.5M (F12). It buys across Physician Groups (3), Behavioral Health (3), Health Insurance (4), Dental (2) and Health IT (3) (F4-F8). It has 1 deal in 2023-2024 against a peer median of 3 (F14, F25).",
+      "fit_thesis": "The target is private, and TPG Capital's private share is 11 of 18 deals (61%) against a peer median of 36% (F15, F30). That is a trait that sets it apart from peers. The $200.0M EV is larger than 78% of its deals, so this would be a bigger-than-usual deal for it (F13). It has 2 direct precedents, MA-2021-0369 and MA-2022-0350, matching the peer median of 2 (F18, F29). Its 3 Physician Groups deals and 3 Behavioral Health deals sit close to Healthcare Services, at similarity 0.83 and 0.77 (F4, F5). Regional targets (13 of 18, 72%) and margin at or above 16.8% (7 of 18, 39%) are near peer medians of 80% and 39%, so they are not specific to TPG Capital (F16, F17, F31, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "The two direct precedents matter most: MA-2022-0350 (Healthcare Services, $186.6M, 11.2x EV/EBITDA) and MA-2021-0369 (Behavioral Health, $117.9M, 8.8x). Both closed. The other three Physician Groups deals are $7.0M to $23.1M, well below the target's $200.0M, so they show sector exposure but not size fit. MA-2018-0111 is Pending.",
+      "valuation_commentary": "The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F21). TPG Capital's 2 direct precedents show a median EV/EBITDA of 10.0x (F19). Across its 15 closed deals, the medians are 15.7x EV/EBITDA and 2.43x EV/Revenue (F22). The data doesn't show what drives the spread between these figures.",
+      "conviction_reason": "Conviction is Medium because TPG Capital has 2 direct precedents, short of the 3 needed for High, and 1 deal in Healthcare Services (F18, F20, F33). The Competitive process risk is normal severity, so it does not lower the level (F34).",
+      "cited_ids": {
+        "overview": [
+          "F1",
+          "F3",
+          "F4",
+          "F5",
+          "F6",
+          "F7",
+          "F8",
+          "F12",
+          "F14",
+          "F25"
+        ],
+        "fit_thesis": [
+          "F4",
+          "F5",
+          "F13",
+          "F15",
+          "F16",
+          "F17",
+          "F18",
+          "F29",
+          "F30",
+          "F31",
+          "F32"
+        ],
+        "precedent_commentary": [
+          "MA-2022-0350",
+          "MA-2021-0369",
+          "MA-2018-0111",
+          "MA-2018-0415",
+          "MA-2023-0110",
+          "F18"
+        ],
+        "valuation_commentary": [
+          "F19",
+          "F21",
+          "F22"
+        ],
+        "conviction_reason": [
+          "F18",
+          "F20",
+          "F33",
+          "F34"
+        ]
+      },
+      "review_flags": [],
+      "needs_review": false
+    }
+  ]
+}

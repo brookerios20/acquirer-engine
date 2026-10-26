@@ -1,0 +1,4 @@
+transaction_id,target_company,acquirer,sector,sub_sector,deal_year,deal_quarter,deal_type,geography,financing_type,deal_size_mm,target_revenue_mm,target_ebitda_mm,ebitda_margin_pct,revenue_growth_pct,ev_ebitda_multiple,ev_revenue_multiple,synergy_pct_of_deal,outcome,strategic_rationale_tags,num_bidders,days_to_close,acquirer_type,target_ownership_pre
+MA-2020-0001,Pinnacle Revenue Cycle,Phreesia,Health IT,Health IT,2020,Q4,Strategic Acquisition,Northeast,All Cash,39.7,7.6,1.9,20.0,13.4,18.3,5.2,15.1,Closed,Technology Capability,3,157.0,Strategic,Public
+MA-2021-0002,Bad Size Co,Blackstone,Dental,Dental,2021,Q1,LBO,Midwest,Leveraged,n/a,40.0,8.0,20.0,10.0,15.0,3.0,12.0,Closed,Platform Build,2,90.0,Financial Sponsor,Private
+MA-2022-0003,Bad Outcome Co,Blackstone,Dental,Dental,2022,Q2,LBO,Midwest,Leveraged,150.0,40.0,8.0,20.0,10.0,15.0,3.0,12.0,Abandoned,Platform Build,2,,Financial Sponsor,Private

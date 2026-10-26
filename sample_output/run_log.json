@@ -1,0 +1,210 @@
+{
+  "finished_at": "2026-10-26T05:07:35+00:00",
+  "elapsed_s": 13.9,
+  "data": {
+    "source": "data/ma_transactions_500.csv",
+    "sha256": "e47a81f726f432dc25c53aa9f5322948943774d324bc44e40df3888f326d54a0",
+    "skipped_rows": []
+  },
+  "target": {
+    "sector": "Healthcare Services",
+    "ev_mm": 200.0,
+    "ownership": "Private",
+    "min_margin_pct": 16.8,
+    "region": null
+  },
+  "min_strategics": 0,
+  "config": {
+    "analysis": {
+      "shortlist_size": 10,
+      "margin_quantile": 0.75,
+      "non_regional_geographies": [
+        "National",
+        "Multi-Regional"
+      ],
+      "size_band_low": 0.5,
+      "size_band_high": 2.0,
+      "direct_precedent_years": 5,
+      "nearest_sectors": 2,
+      "high_min_direct": 3,
+      "medium_min_direct": 1,
+      "medium_min_exact_sector_deals": 2,
+      "recent_years": 2,
+      "precedent_table_size": 5,
+      "thin_evidence_below_direct": 2,
+      "recent_pace_min_deals": 5,
+      "size_stretch_high_multiple": 2.0,
+      "contested_min_bidders": 3,
+      "contested_min_share": 0.5
+    },
+    "llm": {
+      "model": "claude-sonnet-5-5",
+      "effort": "medium",
+      "max_tokens": 16000,
+      "timeout_s": 30.0,
+      "sdk_max_retries": 1,
+      "max_workers": 10
+    },
+    "validation": {
+      "min_risks": 2,
+      "banned_phrases": [
+        "leading",
+        "well-positioned",
+        "well positioned",
+        "track record of strategic acquisitions",
+        "best-in-class",
+        "synergistic"
+      ],
+      "section_words": [
+        [
+          "headline",
+          4,
+          25
+        ],
+        [
+          "overview",
+          30,
+          130
+        ],
+        [
+          "fit_thesis",
+          40,
+          170
+        ],
+        [
+          "precedent_commentary",
+          25,
+          130
+        ],
+        [
+          "valuation_commentary",
+          25,
+          120
+        ],
+        [
+          "conviction_reason",
+          12,
+          70
+        ]
+      ]
+    }
+  },
+  "llm_mode": "record",
+  "prompt_version": "v1",
+  "model": "claude-sonnet-5-5",
+  "warnings": [],
+  "calls": [
+    {
+      "acquirer": "Nordic Capital",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 9.56,
+      "input_tokens": 6225,
+      "output_tokens": 1490,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "Vista Equity",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 9.51,
+      "input_tokens": 6355,
+      "output_tokens": 1459,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "Bain Capital",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 10.01,
+      "input_tokens": 6302,
+      "output_tokens": 1466,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "Welsh Carson",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 10.75,
+      "input_tokens": 6356,
+      "output_tokens": 1566,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "Blackstone",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 10.4,
+      "input_tokens": 6297,
+      "output_tokens": 1622,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "Warburg Pincus",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 10.13,
+      "input_tokens": 6230,
+      "output_tokens": 1436,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "New Mountain Capital",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 9.98,
+      "input_tokens": 6247,
+      "output_tokens": 1491,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "KKR",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 11.25,
+      "input_tokens": 6351,
+      "output_tokens": 1696,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "Advent International",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 13.81,
+      "input_tokens": 6236,
+      "output_tokens": 1616,
+      "violations": [],
+      "error": null
+    },
+    {
+      "acquirer": "TPG Capital",
+      "attempt": 1,
+      "model": "claude-sonnet-5-5",
+      "latency_s": 10.26,
+      "input_tokens": 6172,
+      "output_tokens": 1537,
+      "violations": [],
+      "error": null
+    }
+  ],
+  "validation": {
+    "Nordic Capital": [],
+    "Vista Equity": [],
+    "Bain Capital": [],
+    "Welsh Carson": [],
+    "Blackstone": [],
+    "Warburg Pincus": [],
+    "New Mountain Capital": [],
+    "KKR": [],
+    "Advent International": [],
+    "TPG Capital": []
+  }
+}
