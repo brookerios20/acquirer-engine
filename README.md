@@ -39,7 +39,7 @@ Each run writes to `runs/<timestamp>/`:
 - `one_pagers.json`, the same content for other programs
 - `run_log.json`, the audit log described under [Handling Output Non-Determinism](#handling-output-non-determinism)
 
-A live run of the default target takes 15 to 30 seconds and uses about 63K input and 15K output tokens across 10 calls.
+A live run of the default target took 14 to 27 seconds in testing. It makes 10 calls, plus 1 for each validation retry, and uses about 63K input and 15K output tokens.
 
 ### Other targets
 
@@ -57,7 +57,7 @@ With no flags, the tool runs the brief's target. Each flag overrides one trait:
 | `--out` | `runs/<timestamp>` | Output folder |
 | `--record` / `--replay` | Live | Save responses for replay, or replay saved ones |
 
-For example, `uv run acquirers --sector Dental --ev 150 --min-strategics 3`. An unknown sector, region, or ownership value fails with a list of the values in the data. Replay only works for the recorded target, so a run with other flags needs an API key.
+For example, `uv run acquirers --sector Dental --ev 150 --min-strategics 3`. An unknown sector, region, or ownership value fails with a list of the values in the data. Replay only works for the recorded target, so changing a target flag needs an API key.
 
 ### Backtest
 
@@ -73,7 +73,7 @@ This ranks the real buyer of each 2022–2024 deal using only deals announced be
 uv run pytest
 ```
 
-The 90 tests run offline. They cover the data rules, ranking, conviction, risks, the validator, the retry logic, the views, the backtest, and an end-to-end replay that must reproduce `sample_output/` file for file. One test file checks every number quoted in [`docs/decisions.md`](docs/decisions.md) against the CSV.
+The 90 tests run offline. They cover the data rules, ranking, conviction, risks, the validator, the retry logic, the views, the backtest, and an end-to-end replay that must reproduce every file in `sample_output/` except `run_log.json`, which records timing. One test file checks every number quoted in [`docs/decisions.md`](docs/decisions.md) against the CSV.
 
 ## Configuration: Models and API Keys
 
@@ -120,7 +120,7 @@ The run is a fixed sequence of steps, and only the last step calls the LLM:
 5. `AcquirerOnePagerService` makes one LLM call per acquirer, in parallel. `OutputValidatorService` checks each response, and a failed response is retried once with the specific problems listed. A response that fails twice keeps its computed fields and is marked "Needs review", and the other one-pagers are unaffected.
 6. The views write Markdown, JSON, and the run log.
 
-The code is layered into controllers, services, repositories, clients, models, prompts, and views, with constructor injection throughout. The CLI controller is the only module that names concrete classes. The data source, the LLM client, and the ranking model sit behind interfaces, so a Databricks table, another model provider, or a learned ranking model can be added as a new class without changes to the services.
+The code is layered into controllers, services, repositories, clients, models, prompts, and views, with constructor injection throughout. The CLI controller is the only module that constructs the services, repository, and clients. The data source, the LLM client, and the ranking model sit behind interfaces, so a Databricks table, another model provider, or a learned ranking model can be added as a new class without changes to the services.
 
 ### Ranking
 
@@ -151,7 +151,7 @@ The repository applies these rules:
 - EV, revenue, and EV/Revenue reconcile in every row. The EBITDA fields disagree with each other by 18–28% in a typical row, so the tool uses `ev_ebitda_multiple` and `ebitda_margin_pct` as stated and drops `target_ebitda_mm`.
 - `sub_sector` equals `sector` in every row and is ignored.
 - `Rumored` (10 rows) is accepted as a fifth outcome. It counts as buyer interest and is excluded from comps.
-- A row with a non-numeric value or an unknown outcome is skipped and listed in the run log.
+- A row with a non-numeric or out-of-range value, or an unknown outcome or acquirer type, is skipped and listed in the run log.
 
 The brief warns against filtering narrowly. The tool uses the full dataset in three ways. The ranking counts every past deal, weighted by sector similarity. Direct precedents include the 2 nearest sectors. The precedent table fills past the direct precedents with the buyer's closest other deals, labeled as such. The market comps stay narrow (closed Healthcare Services deals at $100–400M, n = 10, median 12.1x EV/EBITDA) and always show their sample size.
 
@@ -191,7 +191,7 @@ I don't have a banking background. The thresholds, the reading of each trait, an
 - The ranking rewards activity, so the most active sponsors rank highest.
 - Conviction is weakly related to who actually buys. In the backtest, the real buyer was 5.2% of High predictions, 4.5% of Medium, and 4.0% of Low.
 - The validator matches numbers with a regular expression, so it misses numbers written as words. It also accepts a number that belongs to another shortlisted buyer, since those appear in the prompt.
-- The 60-second budget applies per LLM call. An acquirer that needs a validation retry makes two calls in sequence, so a slow run can exceed 60 seconds.
+- A run usually finishes in 14 to 27 seconds, inside the brief's 60-second target. Each LLM call is capped at 60 seconds: a 30-second timeout and one SDK retry. An acquirer that needs a validation retry makes two calls in sequence, so a slow run can go over 60 seconds.
 - A buyer with no deals in the data can't be ranked.
 
 How each failure is handled:
@@ -214,6 +214,6 @@ The ranking, every figure and table, the conviction levels, and the data risks a
 
 The prose varies between live runs. The Messages API rejects `temperature`, `top_p`, and `top_k` for this model, so there is no sampling control. The validator bounds that variation, because prose can't introduce a number outside the facts or change a conviction level.
 
-`--record` saves each LLM response in `recordings/`, keyed by a hash of the model, prompt version, full prompt, and output schema. `--replay` serves those responses back with no API key, which reproduces the recorded run exactly; a test checks this against `sample_output/`. Any change to the prompt, data, flags, or model gives a new key, so replay fails clearly until the run is re-recorded.
+`--record` saves each LLM response in `recordings/`, keyed by a hash of the model, prompt version, full prompt, and output schema. `--replay` serves those responses back with no API key, which reproduces every output file except the run log; a test checks this against `sample_output/`. Any change to the prompt, data, target flags, or model gives a new key, so replay fails clearly until the run is re-recorded.
 
 Each run writes `run_log.json` with the CSV's SHA-256, the configuration, the prompt version, the model that served each call, per-call latency and tokens, the validation results, and any skipped rows.
