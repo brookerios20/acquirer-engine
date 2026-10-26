@@ -73,7 +73,7 @@ This ranks the real buyer of each 2022–2024 deal using only deals announced be
 uv run pytest
 ```
 
-The 90 tests run offline. They cover the data rules, ranking, conviction, risks, the validator, the retry logic, the views, the backtest, and an end-to-end replay that must reproduce every file in `sample_output/` except `run_log.json`, which records timing. One test file checks every number quoted in [`docs/decisions.md`](docs/decisions.md) against the CSV.
+The 99 tests run offline. They cover the data rules, ranking, conviction, risks, the validator, the retry logic, the views, the backtest, and an end-to-end replay that must reproduce every file in `sample_output/` except `run_log.json`, which records timing. One test file checks every number quoted in [`docs/decisions.md`](docs/decisions.md) against the CSV.
 
 ## Configuration: Models and API Keys
 
@@ -103,7 +103,7 @@ The other settings are in [`src/acquirer_engine/config.py`](src/acquirer_engine/
 
 ## Recorded Demo
 
-Demo video: [Loom recording](https://www.loom.com/share/4b680ad56b4246f899b1da76612f262c).
+Demo video: [Loom recording](https://www.loom.com/share/2740d4b37dea4b328279c5bbeb2dcef8).
 
 The demo shows a replay run and then a live run. The committed [`sample_output/`](sample_output/summary.md) and `recordings/` let anyone reproduce the recorded run without a key.
 

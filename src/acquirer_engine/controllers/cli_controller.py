@@ -171,7 +171,9 @@ def run_report(args: argparse.Namespace) -> int:
         status = "NEEDS REVIEW" if one_pager.needs_review else "ok"
         print(f"{one_pager.rank:>2}. {one_pager.acquirer:<28} {one_pager.conviction.level.value:<7} {status}")
         if one_pager.needs_review:
-            print(f"    Warning: {len(one_pager.review_flags)} check(s) failed; see the one-pager.", file=sys.stderr)
+            print(f"    Warning: {len(one_pager.review_flags)} check(s) failed:", file=sys.stderr)
+            for flag in one_pager.review_flags:
+                print(f"      - {flag}", file=sys.stderr)
     print(f"\nWrote {out_dir}/summary.md and {len(report.one_pagers)} one-pagers in {elapsed:.1f}s.")
     return 0
 

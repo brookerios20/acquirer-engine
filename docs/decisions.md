@@ -333,11 +333,11 @@ How the rules are applied:
 - Every computed data risk needs a note with its exact title.
 - Banned phrases match whole words, so "leading" is caught and "misleading" isn't.
 
-On failure, `AcquirerOnePagerService` retries once in the same conversation: the first response goes back as the assistant turn, followed by the specific violations ("valuation_commentary uses 14.1; that value isn't in the facts"). An API error, refusal, or truncated response counts as a failed attempt and is retried the same way. If it fails again:
+On failure, `AcquirerOnePagerService` retries once in the same conversation: the first response goes back as the assistant turn, followed by the specific violations ("valuation_commentary uses 14.1; that value isn't in the facts"). An API error, refusal, or truncated response counts as a failed attempt and is retried the same way. The exception is an API error that a retry can't fix: a 4xx other than 408, 409, or 429 (the statuses the SDK treats as transient), such as a bad key or an empty credit balance. That attempt is the last one. If it fails again, or can't be retried:
 
 - The code-filled fields stay. The prose fields are kept if the response parsed, or left empty if it didn't.
 - `review_flags` lists the violations. The Markdown file opens with a "Needs review" line, `summary.md` marks the row, and the JSON includes the list.
-- The CLI prints a warning naming the acquirer, and the run continues.
+- The CLI prints a warning naming the acquirer and listing each flag, including the API's own error message, and the run continues.
 
 ### Rationale
 
@@ -378,7 +378,7 @@ How each part handles non-determinism:
 |---|---|
 | Ranking, numbers, tables, conviction, data risks | Deterministic. Same CSV and config give the same output |
 | Prose | Varies between live runs. The Messages API rejects `temperature`, `top_p`, and `top_k` with a 400, so there is no sampling control. Prose can't change a number (decision 11) or a conviction level (decision 7) |
-| Replay | Reproduces a recorded run exactly. The committed sample output comes from one |
+| Replay | Reproduces every output file of a recorded run except the run log. The committed sample output comes from one |
 
 ### Rationale
 
@@ -429,8 +429,9 @@ Tests (`pytest`):
 - Unit, on fixture CSVs (repository) and small hand-built deal lists (`tests/factories.py`): repository rules, sector similarity, ranking and tie-breaks, `--min-strategics`, conviction thresholds and the downgrade, risk thresholds, precedent selection. The evidence-builder tests fix sector similarity through `create_autospec` so each test controls which sectors count as nearest.
 - Unit, documented numbers: every figure this file and `eda/FINDINGS.md` quote about the real CSV (similarities, comps, the 4/5/1 conviction mix, the two downgrades) is asserted in `tests/unit/test_documented_numbers.py`, so the code and the documents can't drift apart.
 - Unit, validator: a planted fake number, a bad citation, and a banned phrase are each caught, along with rounded figures, missing risk notes, too few risks, and length.
-- Unit, one-pager service and views, with a fake `LlmClient` (`tests/llm_fakes.py`): one call per acquirer in rank order, the retry carries the violations, two failures flag the one-pager and keep its computed fields, and a failed acquirer doesn't stop the others.
-- Replay, end to end (`tests/replay/`): the full CLI runs offline from committed recordings, writes 10 one-pagers that pass schema and grounding checks, and reproduces `sample_output/` file for file. The same file checks that a changed target misses with a clear message and that a missing key fails before any analysis.
+- Unit, one-pager service and views, with a fake `LlmClient` (`tests/llm_fakes.py`): one call per acquirer in rank order, the retry carries the violations, two failures flag the one-pager and keep its computed fields, a non-retryable API error isn't retried, and a failed acquirer doesn't stop the others.
+- Unit, Anthropic client, with the SDK call stubbed: which HTTP statuses are retryable, and that the error message is the API's own text.
+- Replay, end to end (`tests/replay/`): the full CLI runs offline from committed recordings, writes 10 one-pagers that pass schema and grounding checks, and reproduces every file in `sample_output/` except `run_log.json`, which records timing. The same file checks that a changed target misses with a clear message and that a missing key fails before any analysis.
 - Unit, backtest (`test_backtest_service.py`): hit@k and MRR on a hand-built deal list, a first-time buyer counts as a miss, each fit sees only earlier quarters, and the profile-like filter. The real-CSV table is pinned in `test_documented_numbers.py`.
 - Unit, record and replay clients: a recorded response replays exactly; a changed prompt, prompt version, or model misses; failed calls aren't saved.
 

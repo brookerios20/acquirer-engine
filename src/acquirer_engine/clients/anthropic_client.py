@@ -10,6 +10,10 @@ from .llm_client import LlmCallError, LlmRequest, LlmResponse
 # request on Anthropic's recommended fallback model inside the same call.
 FALLBACK_BETA = "server-side-fallback-2026-07-01"
 
+# Statuses the SDK treats as transient. Any other 4xx means the request or the account
+# is wrong (bad key, no credits, invalid request), so a retry would fail the same way.
+TRANSIENT_STATUSES = {408, 409, 429}
+
 
 class AnthropicClient:
     """Calls the Messages API with structured output (decision 14).
@@ -48,7 +52,10 @@ class AnthropicClient:
         except pydantic.ValidationError as error:
             raise LlmCallError(f"response didn't match the output schema: {error}") from error
         except anthropic.APIStatusError as error:
-            raise LlmCallError(f"API error {error.status_code}: {error.message}") from error
+            retryable = error.status_code in TRANSIENT_STATUSES or error.status_code >= 500
+            raise LlmCallError(
+                f"API error {error.status_code}: {_api_error_message(error)}", retryable=retryable
+            ) from error
         except anthropic.APIConnectionError as error:
             # Includes timeouts (APITimeoutError is a subclass)
             raise LlmCallError(f"connection error: {error}") from error
@@ -72,3 +79,14 @@ class AnthropicClient:
             output_tokens=response.usage.output_tokens,
             latency_s=round(latency, 2),
         )
+
+
+def _api_error_message(error: anthropic.APIStatusError) -> str:
+    """The API's own message ("Your credit balance is too low..."), without the SDK's
+    "Error code: 400 - {...}" wrapper around the raw response body."""
+    body = error.body
+    if isinstance(body, dict) and isinstance(body.get("error"), dict):
+        message = body["error"].get("message")
+        if message:
+            return message
+    return error.message

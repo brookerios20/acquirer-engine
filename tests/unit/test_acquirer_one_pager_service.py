@@ -97,6 +97,19 @@ def test_failed_calls_leave_prose_empty_and_the_run_continues():
     assert [r.error is not None for r in records if r.acquirer == "Sponsor A"] == [True, True]
 
 
+def test_non_retryable_call_error_is_not_retried():
+    def no_credits(request, call_number):
+        raise LlmCallError("API error 400: Your credit balance is too low", retryable=False)
+
+    client = FakeLlmClient(no_credits)
+    one_pagers, records = service(client).generate_all(EVIDENCE, TARGET)
+
+    assert len(client.requests) == len(EVIDENCE.packs)   # one call each, no retry
+    assert [r.attempt for r in records] == [1] * len(EVIDENCE.packs)
+    for one_pager in one_pagers:
+        assert one_pager.review_flags == ["LLM call failed: API error 400: Your credit balance is too low"]
+
+
 def test_prompt_holds_the_evidence_and_leaves_out_deal_type():
     prompt = service(FakeLlmClient(always_valid)).build_prompt(PACKS["Health System"], EVIDENCE, TARGET)
 

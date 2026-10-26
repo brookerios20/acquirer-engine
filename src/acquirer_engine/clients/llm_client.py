@@ -32,7 +32,15 @@ class LlmResponse:
 
 class LlmCallError(Exception):
     """The call failed after the client's own retries: API error, refusal, truncation,
-    or output that didn't match the schema. The caller decides what to do next."""
+    or output that didn't match the schema. The caller decides what to do next.
+
+    `retryable` is False when sending the same request again can't succeed, such as a
+    bad API key or an empty credit balance (decision 11).
+    """
+
+    def __init__(self, message: str, retryable: bool = True):
+        super().__init__(message)
+        self.retryable = retryable
 
 
 class LlmClient(Protocol):

@@ -90,6 +90,8 @@ class AcquirerOnePagerService:
                 records.append(CallRecord(pack.acquirer, attempt, self.model, 0.0, 0, 0, [], str(error)))
                 # Keep an earlier draft's violations: they still describe the prose we have
                 violations = [*violations, f"LLM call failed: {error}"]
+                if not error.retryable:
+                    break  # e.g. bad key or no credits: the same request would fail again
                 continue  # retry the same request
 
             draft = response.parsed
