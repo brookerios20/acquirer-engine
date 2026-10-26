@@ -103,7 +103,7 @@ The other settings are in [`src/acquirer_engine/config.py`](src/acquirer_engine/
 
 ## Recorded Demo
 
-Demo video: _link to be added_.
+Demo video: [Loom recording](https://www.loom.com/share/4b680ad56b4246f899b1da76612f262c).
 
 The demo shows a replay run and then a live run. The committed [`sample_output/`](sample_output/summary.md) and `recordings/` let anyone reproduce the recorded run without a key.
 
