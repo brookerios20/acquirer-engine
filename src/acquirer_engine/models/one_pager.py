@@ -22,7 +22,7 @@ class Citations(BaseModel):
 
 class DataRiskNote(BaseModel):
     title: str = Field(description="Exact title of a data risk from the facts")
-    note: str = Field(description="One sentence on why it matters for this deal")
+    note: str = Field(description="One sentence on what it means for approaching this buyer, without restating the risk's figures")
 
 
 class QualitativeRisk(BaseModel):

@@ -35,7 +35,7 @@ $lens
 - `fit_thesis`: 3-5 sentences. Why this target fits this buyer specifically, citing the deals and counts that support it.
 - `precedent_commentary`: 2-4 sentences on the precedent table: which deals matter most and why.
 - `valuation_commentary`: 2-4 sentences comparing the market comps with what this buyer has paid. Report the medians and sample sizes as given; don't compute a gap.
-- `data_risk_notes`: one note per data risk above, using its exact title. Empty if there are none.
+- `data_risk_notes`: one note per data risk above, using its exact title. Empty if there are none. The one-pager prints each risk's detail just before your note, so don't repeat its figures; say in one sentence what it means for approaching this buyer.
 - `qualitative_risks`: risks the data can't measure (financing capacity, antitrust, integration, competition from other buyers). Write enough that data risks plus qualitative risks total at least $min_risks.
 - `conviction_reason`: 1-2 sentences explaining the computed conviction level ($conviction) from the counts behind it.
 - `citations`: the IDs each section relies on.

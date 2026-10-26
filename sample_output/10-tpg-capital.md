@@ -2,19 +2,19 @@
 
 Financial Sponsor · Score 11.7 · Conviction: **Medium**
 
-**TPG Capital: 2 direct precedents and a $200.0M target above most of its deal sizes, rated Medium**
+**TPG Capital has 2 direct precedents in the $100.0M-$400.0M range, including a Healthcare Services deal at $186.6M**
 
 ## Acquirer overview
 
-TPG Capital is a Financial Sponsor with 18 deals in the data, 15 of them closed, from 2016 to 2023 (F1, F3). Deal sizes run from $7.0M (MA-2023-0110) to $1,387.8M (MA-2022-0172), with a median of $87.5M (F12). It buys across Physician Groups (3), Behavioral Health (3), Health Insurance (4), Dental (2) and Health IT (3) (F4-F8). It has 1 deal in 2023-2024 against a peer median of 3 (F14, F25).
+TPG Capital is a Financial Sponsor with 18 deals in the data, 15 closed, from 2016-2023 (F1, F3). Deal sizes run from $7.0M (MA-2023-0110) to $1,387.8M (MA-2022-0172), with a median of $87.5M (F12). It buys across Health Insurance (4 deals), Physician Groups (3), Behavioral Health (3) and Health IT (3) (F4, F5, F6, F8). It has 1 deal in 2023-2024, against a peer median of 3 (F14, F25). Its ranking score is 11.7, rank 10 of 10 (F2).
 
 ## Strategic fit thesis
 
-The target is private, and TPG Capital's private share is 11 of 18 deals (61%) against a peer median of 36% (F15, F30). That is a trait that sets it apart from peers. The $200.0M EV is larger than 78% of its deals, so this would be a bigger-than-usual deal for it (F13). It has 2 direct precedents, MA-2021-0369 and MA-2022-0350, matching the peer median of 2 (F18, F29). Its 3 Physician Groups deals and 3 Behavioral Health deals sit close to Healthcare Services, at similarity 0.83 and 0.77 (F4, F5). Regional targets (13 of 18, 72%) and margin at or above 16.8% (7 of 18, 39%) are near peer medians of 80% and 39%, so they are not specific to TPG Capital (F16, F17, F31, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.
+The target's $200.0M EV is larger than 78% of TPG's deals (F13). TPG has 2 direct precedents, MA-2022-0350 and MA-2021-0369 (F18). It also has 3 Physician Groups deals, 3 Behavioral Health deals and 2 Dental deals, sectors with similarity weights of 0.83, 0.77 and 0.72 (F4, F5, F7). Private targets are 11 of 18 deals (61%), against a peer median of 36% (F15, F30). That private-target share is a distinguishing trait. Regional targets (72%) and margin at or above 16.8% (39%) sit near peer medians of 80% and 39%, so they do not set TPG apart (F16, F17, F31, F32). Outside the data: whether TPG would treat this target as a platform or an add-on is not shown.
 
 ## Precedent activity
 
-The two direct precedents matter most: MA-2022-0350 (Healthcare Services, $186.6M, 11.2x EV/EBITDA) and MA-2021-0369 (Behavioral Health, $117.9M, 8.8x). Both closed. The other three Physician Groups deals are $7.0M to $23.1M, well below the target's $200.0M, so they show sector exposure but not size fit. MA-2018-0111 is Pending.
+MA-2022-0350 is the closest match: Healthcare Services, $186.6M, closed, 11.2x EV/EBITDA and 2.99x EV/Revenue. MA-2021-0369 is Behavioral Health, $117.9M, closed, at 8.8x and 2.33x. The other 3 deals are Physician Groups at $23.1M, $15.2M and $7.0M. They are not direct precedents because they fall below the $100.0M-$400.0M range. MA-2018-0111 is also still pending.
 
 | ID | Target | Year | Sector | EV | Deal type | Outcome | EV/EBITDA | EV/Revenue | Direct |
 |---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ Deal type is shown as reported; the EDA found it unreliable as a signal of buyer
 
 ## Valuation context
 
-The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F21). TPG Capital's 2 direct precedents show a median EV/EBITDA of 10.0x (F19). Across its 15 closed deals, the medians are 15.7x EV/EBITDA and 2.43x EV/Revenue (F22). The data doesn't show what drives the spread between these figures.
+The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F21). TPG's 2 direct precedents show a median EV/EBITDA of 10.0x (F19). Across its 15 closed deals, TPG's median is 15.7x EV/EBITDA and 2.43x EV/Revenue (F22). That all-deal figure covers a wide size range ($7.0M to $1,387.8M), so it is a weaker guide to this target than the direct precedents (F12).
 
 | Set | n | Median EV/EBITDA | Median EV/Revenue |
 |---|---|---|---|
@@ -38,15 +38,14 @@ The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 
 
 ## Risk flags
 
-- **Competitive process** (computed from data, normal severity): 5 of 10 comparable closed deals drew 3 or more bidders. 5 of 10 comparable closed deals drew 3 or more bidders, so TPG Capital may face other bidders on this sale. [MA-2019-0352, MA-2020-0232, MA-2020-0306, MA-2021-0195, MA-2024-0120]
-- **Low recent activity** (LLM-written, normal severity): TPG Capital has 1 deal in 2023-2024 against a peer median of 3, and its last deal was 2023 Q2. Outside the data: this may reflect fund timing or capacity.
-- **Size stretch** (LLM-written, normal severity): The $200.0M target is above its $87.5M median deal size. Outside the data: financing capacity and fund concentration for this deal size are not shown.
-- **Withdrawn deals** (LLM-written, normal severity): 2 of its deals were withdrawn. The data doesn't show the reasons, so execution risk is unclear.
-- **Antitrust and integration** (LLM-written, normal severity): Outside the data: antitrust review and integration with any existing healthcare holdings are not covered by the facts.
+- **Competitive process** (computed from data, normal severity): 5 of 10 comparable closed deals drew 3 or more bidders. Expect TPG to face rival bidders on a process like this, so the call should come early and set out a clear reason why TPG fits. [MA-2019-0352, MA-2020-0232, MA-2020-0306, MA-2021-0195, MA-2024-0120]
+- **Low recent activity** (LLM-written, normal severity): TPG has 1 deal in 2023-2024 and its last deal was 2023 Q2 (F14). The data doesn't show whether it has capital or appetite for a new healthcare deal now.
+- **Thin Healthcare Services history** (LLM-written, normal severity): TPG has 1 deal in Healthcare Services, in line with the peer median of 1 (F9, F28). Outside the data: its sector depth and its view on this target's exit path are not shown.
+- **Withdrawn deals** (LLM-written, normal severity): 2 of TPG's deals were withdrawn (F23). The data doesn't show why, so execution or pricing discipline is an open question.
 
 ## Conviction
 
-**Medium.** Conviction is Medium because TPG Capital has 2 direct precedents, short of the 3 needed for High, and 1 deal in Healthcare Services (F18, F20, F33). The Competitive process risk is normal severity, so it does not lower the level (F34).
+**Medium.** Conviction is Medium because TPG has 2 direct precedents, below the 3 needed for High, and 1 deal in Healthcare Services (F18, F20, F33). The one data risk is normal severity, so it does not lower the level (F34).
 
 Basis: 2 direct precedents, 1 deals in Healthcare Services.
 
@@ -65,8 +64,8 @@ Total: 11.7
 
 ## Sources cited
 
-- overview: F1, F3, F4, F5, F6, F7, F8, F12, F14, F25
-- fit_thesis: F4, F5, F13, F15, F16, F17, F18, F29, F30, F31, F32
-- precedent_commentary: MA-2022-0350, MA-2021-0369, MA-2018-0111, MA-2018-0415, MA-2023-0110, F18
-- valuation_commentary: F19, F21, F22
+- overview: F1, F2, F3, F4, F5, F6, F8, F12, F14, F25
+- fit_thesis: F4, F5, F7, F13, F15, F16, F17, F18, F30, F31, F32, MA-2022-0350, MA-2021-0369
+- precedent_commentary: F18, MA-2022-0350, MA-2021-0369, MA-2018-0111, MA-2018-0415, MA-2023-0110
+- valuation_commentary: F12, F19, F21, F22
 - conviction_reason: F18, F20, F33, F34

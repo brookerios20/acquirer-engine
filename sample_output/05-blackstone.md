@@ -2,19 +2,19 @@
 
 Financial Sponsor · Score 15.7 · Conviction: **Medium**
 
-**Blackstone has 2 direct precedents and buys across Physician Groups and Behavioral Health, though peers match on most traits**
+**Blackstone has 2 direct precedents and 2 Healthcare Services deals, but a $14,353.7M top end and rank 5 of 10**
 
 ## Acquirer overview
 
-Blackstone is a Financial Sponsor with 25 deals in the data, 22 closed, from 2015 to 2024 (F1, F3). Deal sizes run from $10.5M (MA-2023-0456) to $14,353.7M (MA-2019-0498), with a median of $341.7M (F14). Its largest sector is Health Insurance with 6 deals, followed by Revenue Cycle with 4 (F4, F6). It did 3 deals in 2023-2024, and its last deal was in 2024 Q2 (MA-2024-0347) (F16). It ranks 5 of 10 with a score of 15.7 (F2).
+Blackstone is a Financial Sponsor with 25 deals in the data, 22 closed, from 2015-2024 (F1, F3). Deal sizes run from $10.5M (MA-2023-0456) to $14,353.7M (MA-2019-0498), with a median of $341.7M (F14). It buys across Health Insurance (6 deals), Revenue Cycle (4) and Health IT (3), plus Healthcare Services (2) (F4, F5, F6, F11). It made 3 deals in 2023-2024; the last was 2024 Q2 (MA-2024-0347) (F16). It ranks 5 of 10 with a score of 15.7 (F2).
 
 ## Strategic fit thesis
 
-Blackstone has 2 deals in Healthcare Services, 2 in Physician Groups and 2 in Behavioral Health, at similarity weights of 1.00, 0.83 and 0.77 (F5, F7, F8). The target's $200.0M EV is larger than 32% of its deals, so it sits in the lower part of its size range (F15). 19 of 25 targets were regional, 9 of 25 were private, and 12 of 25 had margins at or above 16.8% (F17, F18, F19). Those shares are close to the peer medians of 80%, 36% and 39%, so they are typical for sponsors and do not set Blackstone apart (F32, F33, F34). What does set it apart is the breadth of its adjacent healthcare sector mix, including Dental, Medical Devices and Health Insurance (F4, F9, F10).
+Blackstone has 2 closed direct precedents in Healthcare Services, MA-2021-0195 and MA-2021-0407 (F20). It also has 2 deals each in Physician Groups (similarity 0.83) and Behavioral Health (0.77) (F7, F8). The $200.0M target is larger than 32% of its deals (F15). Regional targets are 19 of 25 deals (76%), against a peer median of 80%, so that trait is not specific to Blackstone (F19, F34). The same holds for private targets, at 36% for both Blackstone and peers (F17, F32). Its 2 Healthcare Services deals compare with a peer median of 1 (F5, F30). Outside the data: platform versus add-on fit, exit path and holding period are not shown.
 
 ## Precedent activity
 
-MA-2021-0195 ($299.0M, 14.6x EV/EBITDA) and MA-2021-0407 ($341.7M, 10.0x) are the 2 direct precedents, both closed in 2021 in Healthcare Services (F20). Both are in the same EV band as the target. MA-2018-0122 is a closed Physician Groups deal at $251.7M but falls outside the 2020-2024 window. MA-2020-0040 was withdrawn and MA-2019-0478 is $57.8M, so both are weaker guides. Blackstone's 2 direct precedents match the peer median of 2 (F31).
+The two direct precedents matter most. Both are Healthcare Services deals from 2021: MA-2021-0195 at $299.0M and 14.6x EV/EBITDA, and MA-2021-0407 at $341.7M and 10.0x. The other three rows are not direct: MA-2018-0122 (Physician Groups, $251.7M, closed) is outside 2020-2024, MA-2020-0040 (Physician Groups, $54.0M) was withdrawn, and MA-2019-0478 (Behavioral Health, $57.8M) is below $100.0M. The direct count of 2 matches the peer median of 2 (F31), so it does not set Blackstone apart on its own.
 
 | ID | Target | Year | Sector | EV | Deal type | Outcome | EV/EBITDA | EV/Revenue | Direct |
 |---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ Deal type is shown as reported; the EDA found it unreliable as a signal of buyer
 
 ## Valuation context
 
-The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F23). Blackstone's 2 direct precedents have a median EV/EBITDA of 12.3x (F21). Across all 22 of its closed deals, its median EV/EBITDA is 17.1x and its median EV/Revenue is 2.94x (F24). That wider set includes much larger deals and other sectors, so the data doesn't show what Blackstone would pay for this target.
+The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F23). Blackstone's 2 direct precedents show a median EV/EBITDA of 12.3x (F21). Across its 22 closed deals, the medians are 17.1x EV/EBITDA and 2.94x EV/Revenue (F24). That broader set spans many sectors and sizes, so the data doesn't show what Blackstone would pay for this target.
 
 | Set | n | Median EV/EBITDA | Median EV/Revenue |
 |---|---|---|---|
@@ -38,14 +38,14 @@ The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, wit
 
 ## Risk flags
 
-- **Competitive process** (computed from data, normal severity): 5 of 10 comparable closed deals drew 3 or more bidders. 5 of 10 comparable closed deals drew 3 or more bidders, so Blackstone would likely face other bidders here (F36). [MA-2019-0352, MA-2020-0232, MA-2020-0306, MA-2021-0195, MA-2024-0120]
-- **Platform versus add-on fit** (LLM-written, normal severity): Outside the data: the data doesn't show whether Blackstone would treat a $200.0M regional target as a platform or an add-on, and the target sits in the lower part of its deal-size range.
-- **Thin direct sector history** (LLM-written, normal severity): The data shows only 2 Healthcare Services deals and 2 direct precedents, both from 2021, with none in the data since. Several shortlisted sponsors have 3 direct precedents (Nordic Capital, Bain Capital, New Mountain Capital, Advent International).
-- **Exit path and holding period** (LLM-written, normal severity): Outside the data: the data doesn't show Blackstone's hold periods or exit routes, so exit fit for a regional private target is untested.
+- **Competitive process** (computed from data, normal severity): 5 of 10 comparable closed deals drew 3 or more bidders. Expect Blackstone to face other bidders on a deal like this, so the pitch should stress certainty and timing rather than assume an exclusive process. [MA-2019-0352, MA-2020-0232, MA-2020-0306, MA-2021-0195, MA-2024-0120]
+- **Size mismatch with its largest deals** (LLM-written, normal severity): Outside the data: a $200.0M target may be small for a sponsor whose largest deal is $14,353.7M, so it may not get senior attention. The target is larger than 32% of its deals.
+- **Competition from other sponsors** (LLM-written, normal severity): Outside the data: 9 other Financial Sponsors are shortlisted, and several have more direct precedents, such as Nordic Capital, Bain Capital, New Mountain Capital and Advent International with 3 each. Blackstone has 2.
+- **Antitrust and integration** (LLM-written, normal severity): Outside the data: any overlap with Blackstone's existing healthcare holdings could raise regulatory or integration issues. The data doesn't show those holdings.
 
 ## Conviction
 
-**Medium.** Conviction is Medium because Blackstone has 2 direct precedents, short of the 3 needed for High, and 2 deals in Healthcare Services (F35). The Competitive process risk is normal severity, so it does not lower the level (F36).
+**Medium.** Conviction is Medium because Blackstone has 2 direct precedents, below the 3 needed for High, and 2 Healthcare Services deals (F20, F22, F35). The data risk is normal severity, so it does not lower the level.
 
 Basis: 2 direct precedents, 2 deals in Healthcare Services.
 
@@ -66,8 +66,8 @@ Total: 15.7
 
 ## Sources cited
 
-- overview: F1, F2, F3, F4, F6, F14, F16
-- fit_thesis: F4, F5, F7, F8, F9, F10, F15, F17, F18, F19, F32, F33, F34
-- precedent_commentary: F20, F31, MA-2021-0195, MA-2021-0407, MA-2018-0122, MA-2020-0040, MA-2019-0478
+- overview: F1, F2, F3, F4, F5, F6, F11, F14, F16
+- fit_thesis: F5, F7, F8, F15, F17, F19, F20, F30, F32, F34
+- precedent_commentary: MA-2021-0195, MA-2021-0407, MA-2018-0122, MA-2020-0040, MA-2019-0478, F31
 - valuation_commentary: F21, F23, F24
-- conviction_reason: F35, F36, F20, F22
+- conviction_reason: F20, F22, F35, F36

@@ -2,19 +2,19 @@
 
 Financial Sponsor · Score 16.8 · Conviction: **Medium**
 
-**Welsh Carson buys across Physician Groups and Behavioral Health, rank 4 of 10, with one direct precedent near this EV**
+**Welsh Carson: rank 4 sponsor with 5 Physician Groups and 5 Behavioral Health deals and one direct precedent at 14.8x**
 
 ## Acquirer overview
 
-Welsh Carson is a Financial Sponsor with 23 deals in the data, 18 closed, from 2017-2023 (F1, F3). Deal size runs from $6.5M (MA-2019-0284) to $4,212.4M (MA-2021-0452), with a median of $172.3M (F13). It holds rank 4 of 10 with a ranking score of 16.8 (F2). It has 3 deals in 2023-2024, and its last deal was 2023 Q3 (MA-2023-0354) (F15).
+Welsh Carson is a Financial Sponsor with 23 deals in the data, 18 closed, from 2017-2023 (F1, F3). Deal size runs from $6.5M (MA-2019-0284) to $4,212.4M (MA-2021-0452), with a median of $172.3M (F13). It ranks 4 of 10 with a score of 16.8 (F2). It has 3 deals in 2023-2024, with the last in 2023 Q3 (MA-2023-0354) (F15).
 
 ## Strategic fit thesis
 
-The sector mix is adjacent rather than core. Welsh Carson has 5 deals in Physician Groups (similarity 0.83) and 5 in Behavioral Health (0.77) (F4, F5). It has only 1 deal in Healthcare Services itself (F9). The $200.0M target is larger than 57% of its deals (F14). 12 of 23 deals (52%) were private targets, against a peer median of 36% (F16, F31). 20 of 23 (87%) were regional targets, near the peer median of 80%, so that trait is not specific to this buyer (F18, F33). 8 of 23 targets (35%) had margins at or above 16.8%, near the peer median of 39% (F17, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.
+The target's $200.0M EV is larger than 57% of Welsh Carson's deals, so it sits in the middle of their range (F14). Their sector mix is concentrated in adjacent sectors: 5 Physician Groups deals (similarity 0.83) and 5 Behavioral Health deals (0.77) (F4, F5). Medical Devices adds 4 deals (0.76) (F6). They have only 1 deal in Healthcare Services itself (F9), which matches the peer median of 1 (F29), so that count does not set them apart. Their private-target share is 52% against a peer median of 36% (F16, F31). This target is private, and that tilt toward private targets is a distinguishing trait. Their regional share of 87% is near the peer median of 80%, so it is not specific to them (F18, F33). Outside the data: platform versus add-on fit, exit path and holding period are not shown.
 
 ## Precedent activity
 
-MA-2020-0094 is the only direct precedent: Behavioral Health, $393.8M, closed, 14.8x EV/EBITDA, 1.70x EV/Revenue (F19, F20). MA-2021-0083 is the only Healthcare Services deal, at $75.3M and 17.8x, but it falls below the $100.0M floor and is not direct (F9, F21). The three Physician Groups deals are not direct: MA-2019-0376 is pending, MA-2020-0070 was withdrawn, and MA-2018-0214 is $63.6M and from 2018.
+The one direct precedent is MA-2020-0094, a closed Behavioral Health deal in 2020 at $393.8M and 14.8x EV/EBITDA (F19, F20). It is the only deal that meets all the direct criteria. MA-2020-0070 (Physician Groups, $504.2M) was withdrawn, and MA-2019-0376 (Physician Groups, $172.3M) is pending. MA-2021-0083 is their one Healthcare Services deal, at $75.3M and 17.8x, which is below the $100.0M-$400.0M range.
 
 | ID | Target | Year | Sector | EV | Deal type | Outcome | EV/EBITDA | EV/Revenue | Direct |
 |---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ Deal type is shown as reported; the EDA found it unreliable as a signal of buyer
 
 ## Valuation context
 
-The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F22). Welsh Carson's 18 closed deals show a median EV/EBITDA of 16.2x and a median EV/Revenue of 3.10x (F23). Its one direct precedent was at 14.8x (F20). The sample of direct precedents is a single deal, so the data doesn't show a reliable direct-precedent multiple.
+The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). Welsh Carson's 18 closed deals show a median EV/EBITDA of 16.2x and EV/Revenue of 3.10x (F23). Their single direct precedent was at 14.8x (F20). The data doesn't show how the target's margin would affect what they pay.
 
 | Set | n | Median EV/EBITDA | Median EV/Revenue |
 |---|---|---|---|
@@ -38,15 +38,15 @@ The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, wit
 
 ## Risk flags
 
-- **Thin evidence** (computed from data, normal severity): 1 direct precedent(s); fewer than 2 closely comparable closed deals. Only 1 direct precedent (MA-2020-0094) supports the case, so one deal drives the precedent read. [MA-2020-0094]
-- **Competitive process** (computed from data, normal severity): 5 of 10 comparable closed deals drew 3 or more bidders. 5 of 10 comparable closed deals drew 3 or more bidders, so Welsh Carson may face competing sponsors. [MA-2019-0352, MA-2020-0232, MA-2020-0306, MA-2021-0195, MA-2024-0120]
-- **Core sector depth** (LLM-written, normal severity): The data shows 1 Healthcare Services deal, equal to the peer median of 1. Healthcare Services focus is not a distinguishing trait of this buyer.
-- **Withdrawn deals** (LLM-written, normal severity): 3 of its deals were withdrawn and 1 precedent is pending. The data doesn't show the reasons. Outside the data: this could point to pricing or diligence friction. [MA-2020-0070, MA-2019-0376]
-- **Financing and antitrust** (LLM-written, normal severity): Outside the data: financing capacity, antitrust review and integration with existing portfolio holdings are not covered by the facts.
+- **Thin evidence** (computed from data, normal severity): 1 direct precedent(s); fewer than 2 closely comparable closed deals. Any pitch rests on one comparable deal, so the MD should not present Welsh Carson as proven in this exact niche. [MA-2020-0094]
+- **Competitive process** (computed from data, normal severity): 5 of 10 comparable closed deals drew 3 or more bidders. Many comparable deals drew several bidders, so Welsh Carson should expect to compete rather than negotiate alone. [MA-2019-0352, MA-2020-0232, MA-2020-0306, MA-2021-0195, MA-2024-0120]
+- **Financing and fund capacity** (LLM-written, normal severity): Outside the data: the data doesn't show Welsh Carson's current fund size, remaining dry powder or leverage appetite for a $200.0M deal.
+- **Withdrawn deals** (LLM-written, normal severity): 3 of their deals were withdrawn, and 1 withdrawn deal sits in the precedent table (MA-2020-0070). The data doesn't show why they were withdrawn. [MA-2020-0070, MA-2020-0070]
+- **Competition from other sponsors** (LLM-written, normal severity): The shortlist includes sponsors with more direct precedents, such as Nordic Capital, Bain Capital and New Mountain Capital with 3 each. Welsh Carson has 1 (F19).
 
 ## Conviction
 
-**Medium.** Conviction is Medium because Welsh Carson has 1 direct precedent (MA-2020-0094) and 1 deal in Healthcare Services, short of the 3 direct precedents needed for High (F34, F19, F21). The two data risks are normal severity, so they do not lower it.
+**Medium.** Conviction is Medium because Welsh Carson has 1 direct precedent and 1 deal in Healthcare Services, which meets the Medium test but falls short of the 3 direct precedents High requires (F34). Neither data risk is high severity, so the level was not lowered (F35, F36).
 
 Basis: 1 direct precedents, 1 deals in Healthcare Services.
 
@@ -66,8 +66,8 @@ Total: 16.8
 
 ## Sources cited
 
-- overview: F1, F2, F3, F13, F15
-- fit_thesis: F4, F5, F9, F14, F16, F17, F18, F31, F32, F33
-- precedent_commentary: F9, F19, F20, F21, MA-2020-0094, MA-2021-0083, MA-2019-0376, MA-2020-0070, MA-2018-0214
+- overview: F1, F2, F3, F13, F15, MA-2019-0284, MA-2021-0452, MA-2023-0354
+- fit_thesis: F4, F5, F6, F9, F14, F16, F18, F29, F31, F33
+- precedent_commentary: F19, F20, MA-2020-0094, MA-2020-0070, MA-2019-0376, MA-2021-0083
 - valuation_commentary: F20, F22, F23
 - conviction_reason: F19, F21, F34, F35, F36

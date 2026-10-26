@@ -33,4 +33,4 @@ Deals: MA-2018-0470, MA-2019-0352, MA-2020-0232, MA-2020-0304, MA-2020-0306, MA-
 - **Score:** each past deal counts by how similar its sector is to the target's (1.0 for the same sector). It measures activity in related sectors, not purchase probability.
 - **Conviction:** how much evidence there is that the buyer wants a deal like this one, from direct-precedent counts. It is computed in code, separately from the score.
 
-_Model: claude-sonnet-5-5. Prompt version: v1. Data: data/ma_transactions_500.csv (SHA-256 e47a81f726f4)._
+_Model: claude-sonnet-5-5. Prompt version: v2. Data: data/ma_transactions_500.csv (SHA-256 e47a81f726f4)._

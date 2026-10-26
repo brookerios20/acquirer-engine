@@ -289,7 +289,7 @@
             "MA-2024-0431",
             "MA-2024-0339"
           ],
-          "explanation": "6 deals in 2023-2024 against a peer median of 3 suggests integration bandwidth may be stretched for a new deal."
+          "explanation": "Raise deal-team capacity early with Nordic Capital, since the data doesn't show how many deals are still being integrated."
         },
         {
           "title": "Competitive process",
@@ -303,19 +303,19 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so a sale here may be contested."
+          "explanation": "Expect a contested auction, so Nordic Capital would need to show it can compete against other bidders."
         },
         {
-          "title": "Financing capacity",
-          "detail": "Outside the data: the facts don't show fund size, remaining capital or debt availability for a new $200.0M deal.",
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: the facts don't say whether Nordic Capital would treat a $200.0M regional target as a platform or an add-on to an existing holding.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Platform versus add-on fit",
-          "detail": "Outside the data: the data doesn't show whether Nordic Capital would treat this target as a platform or an add-on, or its exit path and holding period.",
+          "title": "Financing and exit path",
+          "detail": "Outside the data: financing capacity, holding period and exit route are not shown. The data doesn't show fund size or remaining capital.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
@@ -323,58 +323,68 @@
         },
         {
           "title": "Competition from other sponsors",
-          "detail": "Outside the data: several shortlisted sponsors, including Bain Capital, New Mountain Capital and Advent International, also have 3 direct precedents, so Nordic Capital may face close rivals.",
+          "detail": "Outside the data: Bain Capital, New Mountain Capital and Advent International also have 3 direct precedents each, so Nordic Capital may face similar bidders.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Nordic Capital ranks 1 of 10 sponsors, with 3 direct precedents and 10 Physician Groups deals",
-      "overview": "Nordic Capital is a Financial Sponsor with 24 deals in the data, 21 closed, from 2016 to 2024 (F1, F3). Deal sizes run from $6.5M (MA-2022-0096) to $1,304.4M (MA-2022-0045), with a median of $77.5M (F10). It buys most in Physician Groups (10 deals), then Healthcare Services (4), Behavioral Health (3) and Home Health/Hospice (3) (F4-F7). It did 6 deals in 2023-2024, and the last was in 2024 Q4 (F12).",
-      "fit_thesis": "The target is Healthcare Services at $200.0M EV. Nordic Capital has 4 deals in Healthcare Services against a peer median of 1 (F5, F26). It has 3 direct precedents against a peer median of 2 (F16, F27). Its Physician Groups book (10 deals, similarity 0.83) and Behavioral Health book (3 deals, similarity 0.77) sit next to the target sector (F4, F6). The target's $200.0M EV is larger than 58% of its deals (F11). It is a regional target, and 21 of 24 of its deals are regional, but the peer median is 80%, so that trait is typical of sponsors and not specific to Nordic Capital (F15, F30). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
-      "precedent_commentary": "The 3 direct precedents are all Physician Groups deals: MA-2021-0310 ($301.0M, 14.0x), MA-2021-0208 ($370.4M, 10.2x) and MA-2023-0280 ($388.8M, 13.4x). They bracket the target's $200.0M EV from above and are the closest size matches. MA-2023-0466 ($991.0M) and MA-2024-0339 ($35.0M) are Healthcare Services deals but not direct precedents, because of size.",
-      "valuation_commentary": "The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F19). Nordic Capital's 3 direct precedents show a median EV/EBITDA of 13.4x (F17). Across its 21 closed deals, its medians are 12.5x EV/EBITDA and 2.33x EV/Revenue (F20). The data doesn't show what price it would pay for this target.",
-      "conviction_reason": "Conviction is High because Nordic Capital has 3 direct precedents (MA-2021-0208, MA-2021-0310, MA-2023-0280) and 4 deals in Healthcare Services (F31). Neither data risk is high severity, so the level is not lowered.",
+      "headline": "Nordic Capital: 3 direct precedents, 10 Physician Groups deals, rank 1 of 10 for this $200.0M Healthcare Services target",
+      "overview": "Nordic Capital is a Financial Sponsor with 24 deals in the data, 21 closed, from 2016 to 2024 (F1, F3). Deal sizes run from $6.5M (MA-2022-0096) to $1,304.4M (MA-2022-0045), with a median of $77.5M (F10). It buys most in Physician Groups (10 deals), then Healthcare Services (4), Behavioral Health (3) and Home Health/Hospice (3) (F4-F7). It did 6 deals in 2023-2024, the last in 2024 Q4 (F12). It ranks 1 of 10 with a score of 19.4 (F2).",
+      "fit_thesis": "The target's $200.0M EV is larger than 58% of Nordic Capital's deals (F11). The sector mix is the clearest distinction. Nordic Capital has 10 Physician Groups deals, 3 Behavioral Health deals and 4 Healthcare Services deals, at similarity weights of 0.83, 0.77 and 1.00 (F4-F6). It has 4 Healthcare Services deals against a peer median of 1 (F5, F26). Its 3 direct precedents compare with a peer median of 2 (F16, F27). Its 88% regional share is near the peer median of 80%, so it is not specific to Nordic Capital (F15, F30). The same applies to its 38% private share against a peer median of 36% (F13, F28).",
+      "precedent_commentary": "All 3 direct precedents are Physician Groups deals at $301.0M, $370.4M and $388.8M, from 2021 and 2023 (MA-2021-0310, MA-2021-0208, MA-2023-0280). They sit above the target's $200.0M EV but inside the $100.0M-$400.0M range. Two Healthcare Services deals are shown as non-direct: MA-2023-0466 at $991.0M and MA-2024-0339 at $35.0M. They confirm sector activity but not size fit. The data shows 0 withdrawn and 0 terminated deals (F21).",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F19). Nordic Capital's 3 direct precedents have a median EV/EBITDA of 13.4x (F17). Across its 21 closed deals, its medians are 12.5x EV/EBITDA and 2.33x EV/Revenue (F20). The direct precedents ranged from 10.2x to 14.0x EV/EBITDA (MA-2021-0208, MA-2021-0310).",
+      "conviction_reason": "Conviction is High because Nordic Capital has 3 direct precedents, which meets the High threshold, and 4 deals in Healthcare Services (F31, F16, F18). Both data risks are normal severity, so the level is not lowered (F32, F33).",
       "cited_ids": {
         "overview": [
           "F1",
+          "F2",
           "F3",
           "F4",
           "F5",
           "F6",
           "F7",
           "F10",
-          "F12"
+          "F12",
+          "MA-2022-0096",
+          "MA-2022-0045"
         ],
         "fit_thesis": [
           "F4",
           "F5",
           "F6",
           "F11",
+          "F13",
           "F15",
           "F16",
           "F26",
           "F27",
+          "F28",
           "F30"
         ],
         "precedent_commentary": [
+          "F16",
+          "F21",
           "MA-2021-0310",
           "MA-2021-0208",
           "MA-2023-0280",
           "MA-2023-0466",
-          "MA-2024-0339",
-          "F16"
+          "MA-2024-0339"
         ],
         "valuation_commentary": [
           "F17",
           "F19",
-          "F20"
+          "F20",
+          "MA-2021-0208",
+          "MA-2021-0310"
         ],
         "conviction_reason": [
           "F16",
           "F18",
-          "F31"
+          "F31",
+          "F32",
+          "F33"
         ]
       },
       "review_flags": [],
@@ -640,7 +650,7 @@
             "MA-2024-0251",
             "MA-2024-0190"
           ],
-          "explanation": "Vista did 7 deals in 2023-2024 against a peer median of 3, so it may have less bandwidth for a new deal (F34, F25)."
+          "explanation": "A heavy recent schedule may slow Vista's response to a new process, so the MD should check its capacity for another deal before the call."
         },
         {
           "title": "Competitive process",
@@ -654,39 +664,39 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so expect competition for this asset (F35)."
+          "explanation": "Comparable deals often drew several bidders, so Vista should expect to compete and may need to move early."
         },
         {
-          "title": "Financing capacity",
-          "detail": "Outside the data: the facts say nothing about Vista's available capital or financing terms for a $200.0M deal.",
+          "title": "Platform versus add-on fit",
+          "detail": "Outside the data: the facts don't show whether Vista would treat a $200.0M regional target as a platform or an add-on, or its holding period and exit path.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Competition from other sponsors",
-          "detail": "Outside the data: Nordic Capital, Bain Capital and Advent International each show 3 direct precedents against Vista's 2, so they may be stronger rivals on sector experience.",
+          "title": "Financing and capacity",
+          "detail": "Outside the data: the facts say nothing about Vista's available capital or financing terms. Its largest deal of $9,193.4M suggests scale, but not current capacity.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Margin profile mismatch",
-          "detail": "Only 21% of Vista's targets had margins at or above 16.8%, so a strong-margin target is outside its usual pattern. The data doesn't show whether that matters to Vista.",
+          "title": "Withdrawn and terminated deals",
+          "detail": "The data shows 4 withdrawn and 1 terminated deal. It doesn't show why, so execution risk on a Vista process is unclear.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Vista Equity: rank 2 sponsor with 4 Healthcare Services deals and 2 direct precedents, above peer median",
-      "overview": "Vista Equity is a Financial Sponsor with 24 deals in the data, 19 closed, from 2015-2024 (F1, F3). Deal sizes run from $6.4M (MA-2016-0367) to $9,193.4M (MA-2023-0209), with a median of $153.4M (F12). It ranks 2 of 10 with a score of 18.4 (F2). It has 7 deals in 2023-2024, and its last deal was in 2024 Q3 (F14).",
-      "fit_thesis": "The $200.0M target is larger than 67% of Vista's deals, so it sits in the middle of their size range (F13). Vista has 4 Healthcare Services deals against a peer median of 1, which sets it apart from typical sponsors (F5, F28). It also has 6 Behavioral Health deals, 3 in Physician Groups and 3 in Dental (F4, F6, F7). All 24 of its targets were regional, but the peer median is 80%, so that trait is less distinctive (F17, F32). Only 5 of 24 targets (21%) had a margin at or above 16.8%, against a peer median of 39% (F16, F31). The target's strong margin is therefore not a typical Vista profile. Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
-      "precedent_commentary": "Vista has 2 direct precedents, equal to the peer median of 2 (F18, F29). Both are Behavioral Health: MA-2020-0383 at $182.7M and 16.2x EV/EBITDA, and MA-2021-0131 at $110.5M and 9.8x. MA-2023-0221 is a Healthcare Services deal at $152.5M that was withdrawn. Vista has 4 withdrawn and 1 terminated deals in total (F23).",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F21). Vista's 2 direct precedents have median EV/EBITDA of 13.0x (F19). Across its 19 closed deals, Vista's median EV/EBITDA is 13.5x and median EV/Revenue is 2.61x (F22). The data doesn't show what Vista would pay for this target.",
-      "conviction_reason": "Conviction is Medium because Vista has 2 direct precedents, short of the 3 needed for High, and 4 Healthcare Services deals (F33, F18, F20). Neither data risk is high severity, so the level is not lowered.",
+      "headline": "Vista Equity: rank 2 of 10, 2 direct precedents, 4 Healthcare Services deals, and active in Behavioral Health",
+      "overview": "Vista Equity is a Financial Sponsor with 24 deals in the data, 19 closed, from 2015-2024 (F1, F3). Deal sizes run from $6.4M (MA-2016-0367) to $9,193.4M (MA-2023-0209), with a median of $153.4M (F12). It ranks 2 of 10 with a score of 18.4 (F2). It made 7 deals in 2023-2024, and its last deal was in 2024 Q3 (F14).",
+      "fit_thesis": "Vista's sector mix sits close to the target. It has 6 Behavioral Health deals (similarity 0.77), 4 Healthcare Services deals (1.00) and 3 Physician Groups deals (0.83) (F4, F5, F6). Its 2 direct precedents are both Behavioral Health: MA-2020-0383 and MA-2021-0131 (F18). The $200.0M target is larger than 67% of its deals (F13). That puts it in the mid-to-upper part of Vista's range, not at the extreme. Its 4 Healthcare Services deals compare with a peer median of 1 (F5, F28), which does set it apart. Its median deal size of $153.4M equals the peer median, so size is not a distinguishing trait (F12, F26). All 24 of its targets are regional (F17), but the peer median is 80% (F32), so that trait is only partly specific to Vista. Only 5 of 24 targets (21%) had EBITDA margin at or above 16.8% (F16), against a peer median of 39% (F31). The data doesn't show whether margin matters to Vista.",
+      "precedent_commentary": "The two direct precedents matter most: MA-2020-0383 (2020, $182.7M, 16.2x EV/EBITDA) and MA-2021-0131 (2021, $110.5M, 9.8x), both closed Behavioral Health deals. Of the Healthcare Services deals shown, MA-2021-0226 closed at $582.9M and MA-2024-0251 closed at $24.3M. Neither is a direct precedent, as both fall outside the $100.0M-$400.0M range. MA-2023-0221 ($152.5M) was withdrawn. Vista also has 4 withdrawn and 1 terminated deal in total (F23).",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F21). Vista's 2 direct precedents have a median EV/EBITDA of 13.0x (F19). Across its 19 closed deals, the medians are 13.5x EV/EBITDA and 2.61x EV/Revenue (F22). The data doesn't show what Vista would pay for this specific target.",
+      "conviction_reason": "Conviction is Medium because Vista has 2 direct precedents, below the 3 needed for High, and 4 Healthcare Services deals. The data risks are normal severity, so the level is not lowered.",
       "cited_ids": {
         "overview": [
           "F1",
@@ -699,10 +709,12 @@
           "F4",
           "F5",
           "F6",
-          "F7",
+          "F12",
           "F13",
           "F16",
           "F17",
+          "F18",
+          "F26",
           "F28",
           "F31",
           "F32"
@@ -710,9 +722,10 @@
         "precedent_commentary": [
           "F18",
           "F23",
-          "F29",
           "MA-2020-0383",
           "MA-2021-0131",
+          "MA-2021-0226",
+          "MA-2024-0251",
           "MA-2023-0221"
         ],
         "valuation_commentary": [
@@ -721,9 +734,9 @@
           "F22"
         ],
         "conviction_reason": [
+          "F33",
           "F18",
           "F20",
-          "F33",
           "F34",
           "F35"
         ]
@@ -998,19 +1011,11 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so a sale of this target may be contested and Bain Capital may face other bidders (F36)."
-        },
-        {
-          "title": "Low recent pace",
-          "detail": "The data shows 1 deal in 2023-2024 against a peer median of 3, so current appetite is uncertain. The data doesn't show why.",
-          "source": "llm",
-          "severity": "normal",
-          "transaction_ids": [],
-          "explanation": ""
+          "explanation": "Expect Bain to face other bidders on a deal like this, so the pitch should stress certainty and speed of execution."
         },
         {
           "title": "Withdrawn and terminated deals",
-          "detail": "The data shows 2 withdrawn and 2 terminated deals, including MA-2020-0412 in Healthcare Services. The data doesn't show the reasons.",
+          "detail": "The data shows 2 withdrawn and 2 terminated deals, including terminated MA-2020-0412 in Healthcare Services. The data doesn't show the reasons.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [
@@ -1020,51 +1025,59 @@
           "explanation": ""
         },
         {
-          "title": "Platform versus add-on fit",
-          "detail": "Outside the data: the data doesn't show whether Bain Capital would treat this target as a platform or an add-on. Exit path and holding period are also not shown, and antitrust and financing are unassessed.",
+          "title": "Recent pace below peers",
+          "detail": "Bain did 1 deal in 2023-2024 against a peer median of 3. Outside the data: this may reflect fund timing or capacity, which the data doesn't show.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Financing, antitrust and integration",
+          "detail": "Outside the data: financing capacity, antitrust review and overlap with existing Bain portfolio companies are not measured here. Platform versus add-on fit and holding period are also not shown.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Bain Capital: 3 direct precedents and 7 Physician Groups deals make it a credible sponsor call for this $200.0M target",
-      "overview": "Bain Capital is a Financial Sponsor ranked 3 of 10 with a ranking score of 17.3 (F1, F2). The data shows 24 deals, 18 closed, from 2015-2024, with a median size of $102.9M and a largest of $4,433.3M (F3, F14). Its largest buying areas are Physician Groups (7 deals), Medical Devices (3) and Dental (3) (F4, F5, F6). It has 1 deal in 2023-2024, last in 2024 Q1 (F16).",
-      "fit_thesis": "The target is $200.0M in Healthcare Services, and $200.0M is larger than 62% of Bain Capital's deals (F15). Its 7 Physician Groups deals (similarity 0.83) and 2 Behavioral Health deals (0.77) sit in the direct precedent sectors (F4, F8). It has 3 direct precedents (F20), against a peer median of 2 (F31), so depth in this deal profile separates it from a typical sponsor. Its 2 Healthcare Services deals are above the peer median of 1 (F7, F30). Regional targets (23 of 24 deals) are close to the peer median of 80%, so regional focus is not a distinguishing trait (F19, F34). The 38% private-target share is also near the 36% peer median (F17, F32).",
-      "precedent_commentary": "The three direct precedents are MA-2020-0232 (Healthcare Services, $330.6M, 11.9x), MA-2021-0163 (Physician Groups, $207.4M, 9.7x) and MA-2022-0424 (Physician Groups, $132.9M, 15.3x). All closed, and MA-2021-0163 is closest to the $200.0M target in size. MA-2020-0412 ($472.3M) was terminated, and MA-2017-0264 ($506.0M, 2017) falls outside the direct definition.",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and EV/Revenue of 2.90x (F23). Bain Capital's 3 direct precedents have a median EV/EBITDA of 11.9x (F21). Across its 18 closed deals, the median is 14.7x EV/EBITDA and 2.15x EV/Revenue (F24).",
-      "conviction_reason": "Conviction is High because Bain Capital has 3 direct precedents, which meets the threshold of 3 or more, and 2 deals in Healthcare Services (F35, F20, F22). The normal-severity data risk does not lower it.",
+      "headline": "Bain Capital has 3 direct precedents and buys in Physician Groups and Behavioral Health, adjacent to this target",
+      "overview": "Bain Capital is a Financial Sponsor with 24 deals in the data, 18 of them closed, from 2015-2024 (F1, F3). Deal sizes run from $9.4M (MA-2021-0462) to $4,433.3M (MA-2021-0136), with a median of $102.9M (F14). It ranks 3 of 10 with a score of 17.3 (F2). Its most recent deal was in 2024 Q1 (MA-2024-0405), and it did 1 deal in 2023-2024 (F16).",
+      "fit_thesis": "The $200.0M target is larger than 62% of Bain's deals, so it sits in the upper-middle of its size range (F15). Bain's sector mix is adjacent to Healthcare Services: 7 deals in Physician Groups (similarity 0.83), 2 in Behavioral Health (0.77), 3 in Medical Devices (0.76) and 3 in Dental (0.72) (F4, F5, F6, F8). It also has 2 deals in Healthcare Services itself (F7). Its 3 direct precedents are MA-2020-0232, MA-2021-0163 and MA-2022-0424 (F20). Its 96% regional-target share is above the peer median of 80%, which matches this regional target (F19, F34). Its 50% share of targets at or above the 16.8% margin is above the peer median of 39% (F18, F33). Outside the data: platform versus add-on fit and exit path are not shown.",
+      "precedent_commentary": "The 3 direct precedents matter most: MA-2020-0232 (Healthcare Services, $330.6M, 11.9x), MA-2021-0163 (Physician Groups, $207.4M, 9.7x) and MA-2022-0424 (Physician Groups, $132.9M, 15.3x). MA-2021-0163 at $207.4M is closest in size to the $200.0M target. MA-2020-0412 was terminated and MA-2017-0264 falls outside the date and size window, so neither counts as direct.",
+      "valuation_commentary": "Market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F23). Bain's 3 direct precedents have a median EV/EBITDA of 11.9x (F21). Across its 18 closed deals, Bain's median is 14.7x EV/EBITDA and 2.15x EV/Revenue (F24).",
+      "conviction_reason": "Conviction is High because Bain has 3 direct precedents, which meets the threshold of 3 or more, and 2 deals in Healthcare Services (F35, F20, F22). The one data risk is normal severity, so conviction is not lowered.",
       "cited_ids": {
         "overview": [
           "F1",
           "F2",
           "F3",
-          "F4",
-          "F5",
-          "F6",
           "F14",
-          "F16"
+          "F16",
+          "MA-2021-0462",
+          "MA-2021-0136",
+          "MA-2024-0405"
         ],
         "fit_thesis": [
           "F4",
+          "F5",
+          "F6",
           "F7",
           "F8",
           "F15",
-          "F17",
+          "F18",
           "F19",
           "F20",
-          "F30",
-          "F31",
-          "F32",
+          "F33",
           "F34"
         ],
         "precedent_commentary": [
+          "F20",
           "MA-2020-0232",
           "MA-2021-0163",
           "MA-2022-0424",
           "MA-2020-0412",
-          "MA-2017-0264",
-          "F20"
+          "MA-2017-0264"
         ],
         "valuation_commentary": [
           "F21",
@@ -1072,9 +1085,10 @@
           "F24"
         ],
         "conviction_reason": [
-          "F35",
           "F20",
-          "F22"
+          "F22",
+          "F35",
+          "F36"
         ]
       },
       "review_flags": [],
@@ -1336,7 +1350,7 @@
           "transaction_ids": [
             "MA-2020-0094"
           ],
-          "explanation": "Only 1 direct precedent (MA-2020-0094) supports the case, so one deal drives the precedent read."
+          "explanation": "Any pitch rests on one comparable deal, so the MD should not present Welsh Carson as proven in this exact niche."
         },
         {
           "title": "Competitive process",
@@ -1350,11 +1364,11 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Welsh Carson may face competing sponsors."
+          "explanation": "Many comparable deals drew several bidders, so Welsh Carson should expect to compete rather than negotiate alone."
         },
         {
-          "title": "Core sector depth",
-          "detail": "The data shows 1 Healthcare Services deal, equal to the peer median of 1. Healthcare Services focus is not a distinguishing trait of this buyer.",
+          "title": "Financing and fund capacity",
+          "detail": "Outside the data: the data doesn't show Welsh Carson's current fund size, remaining dry powder or leverage appetite for a $200.0M deal.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
@@ -1362,60 +1376,60 @@
         },
         {
           "title": "Withdrawn deals",
-          "detail": "3 of its deals were withdrawn and 1 precedent is pending. The data doesn't show the reasons. Outside the data: this could point to pricing or diligence friction.",
+          "detail": "3 of their deals were withdrawn, and 1 withdrawn deal sits in the precedent table (MA-2020-0070). The data doesn't show why they were withdrawn.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [
             "MA-2020-0070",
-            "MA-2019-0376"
+            "MA-2020-0070"
           ],
           "explanation": ""
         },
         {
-          "title": "Financing and antitrust",
-          "detail": "Outside the data: financing capacity, antitrust review and integration with existing portfolio holdings are not covered by the facts.",
+          "title": "Competition from other sponsors",
+          "detail": "The shortlist includes sponsors with more direct precedents, such as Nordic Capital, Bain Capital and New Mountain Capital with 3 each. Welsh Carson has 1 (F19).",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Welsh Carson buys across Physician Groups and Behavioral Health, rank 4 of 10, with one direct precedent near this EV",
-      "overview": "Welsh Carson is a Financial Sponsor with 23 deals in the data, 18 closed, from 2017-2023 (F1, F3). Deal size runs from $6.5M (MA-2019-0284) to $4,212.4M (MA-2021-0452), with a median of $172.3M (F13). It holds rank 4 of 10 with a ranking score of 16.8 (F2). It has 3 deals in 2023-2024, and its last deal was 2023 Q3 (MA-2023-0354) (F15).",
-      "fit_thesis": "The sector mix is adjacent rather than core. Welsh Carson has 5 deals in Physician Groups (similarity 0.83) and 5 in Behavioral Health (0.77) (F4, F5). It has only 1 deal in Healthcare Services itself (F9). The $200.0M target is larger than 57% of its deals (F14). 12 of 23 deals (52%) were private targets, against a peer median of 36% (F16, F31). 20 of 23 (87%) were regional targets, near the peer median of 80%, so that trait is not specific to this buyer (F18, F33). 8 of 23 targets (35%) had margins at or above 16.8%, near the peer median of 39% (F17, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
-      "precedent_commentary": "MA-2020-0094 is the only direct precedent: Behavioral Health, $393.8M, closed, 14.8x EV/EBITDA, 1.70x EV/Revenue (F19, F20). MA-2021-0083 is the only Healthcare Services deal, at $75.3M and 17.8x, but it falls below the $100.0M floor and is not direct (F9, F21). The three Physician Groups deals are not direct: MA-2019-0376 is pending, MA-2020-0070 was withdrawn, and MA-2018-0214 is $63.6M and from 2018.",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F22). Welsh Carson's 18 closed deals show a median EV/EBITDA of 16.2x and a median EV/Revenue of 3.10x (F23). Its one direct precedent was at 14.8x (F20). The sample of direct precedents is a single deal, so the data doesn't show a reliable direct-precedent multiple.",
-      "conviction_reason": "Conviction is Medium because Welsh Carson has 1 direct precedent (MA-2020-0094) and 1 deal in Healthcare Services, short of the 3 direct precedents needed for High (F34, F19, F21). The two data risks are normal severity, so they do not lower it.",
+      "headline": "Welsh Carson: rank 4 sponsor with 5 Physician Groups and 5 Behavioral Health deals and one direct precedent at 14.8x",
+      "overview": "Welsh Carson is a Financial Sponsor with 23 deals in the data, 18 closed, from 2017-2023 (F1, F3). Deal size runs from $6.5M (MA-2019-0284) to $4,212.4M (MA-2021-0452), with a median of $172.3M (F13). It ranks 4 of 10 with a score of 16.8 (F2). It has 3 deals in 2023-2024, with the last in 2023 Q3 (MA-2023-0354) (F15).",
+      "fit_thesis": "The target's $200.0M EV is larger than 57% of Welsh Carson's deals, so it sits in the middle of their range (F14). Their sector mix is concentrated in adjacent sectors: 5 Physician Groups deals (similarity 0.83) and 5 Behavioral Health deals (0.77) (F4, F5). Medical Devices adds 4 deals (0.76) (F6). They have only 1 deal in Healthcare Services itself (F9), which matches the peer median of 1 (F29), so that count does not set them apart. Their private-target share is 52% against a peer median of 36% (F16, F31). This target is private, and that tilt toward private targets is a distinguishing trait. Their regional share of 87% is near the peer median of 80%, so it is not specific to them (F18, F33). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "The one direct precedent is MA-2020-0094, a closed Behavioral Health deal in 2020 at $393.8M and 14.8x EV/EBITDA (F19, F20). It is the only deal that meets all the direct criteria. MA-2020-0070 (Physician Groups, $504.2M) was withdrawn, and MA-2019-0376 (Physician Groups, $172.3M) is pending. MA-2021-0083 is their one Healthcare Services deal, at $75.3M and 17.8x, which is below the $100.0M-$400.0M range.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). Welsh Carson's 18 closed deals show a median EV/EBITDA of 16.2x and EV/Revenue of 3.10x (F23). Their single direct precedent was at 14.8x (F20). The data doesn't show how the target's margin would affect what they pay.",
+      "conviction_reason": "Conviction is Medium because Welsh Carson has 1 direct precedent and 1 deal in Healthcare Services, which meets the Medium test but falls short of the 3 direct precedents High requires (F34). Neither data risk is high severity, so the level was not lowered (F35, F36).",
       "cited_ids": {
         "overview": [
           "F1",
           "F2",
           "F3",
           "F13",
-          "F15"
+          "F15",
+          "MA-2019-0284",
+          "MA-2021-0452",
+          "MA-2023-0354"
         ],
         "fit_thesis": [
           "F4",
           "F5",
+          "F6",
           "F9",
           "F14",
           "F16",
-          "F17",
           "F18",
+          "F29",
           "F31",
-          "F32",
           "F33"
         ],
         "precedent_commentary": [
-          "F9",
           "F19",
           "F20",
-          "F21",
           "MA-2020-0094",
-          "MA-2021-0083",
-          "MA-2019-0376",
           "MA-2020-0070",
-          "MA-2018-0214"
+          "MA-2019-0376",
+          "MA-2021-0083"
         ],
         "valuation_commentary": [
           "F20",
@@ -1702,72 +1716,70 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Blackstone would likely face other bidders here (F36)."
+          "explanation": "Expect Blackstone to face other bidders on a deal like this, so the pitch should stress certainty and timing rather than assume an exclusive process."
         },
         {
-          "title": "Platform versus add-on fit",
-          "detail": "Outside the data: the data doesn't show whether Blackstone would treat a $200.0M regional target as a platform or an add-on, and the target sits in the lower part of its deal-size range.",
+          "title": "Size mismatch with its largest deals",
+          "detail": "Outside the data: a $200.0M target may be small for a sponsor whose largest deal is $14,353.7M, so it may not get senior attention. The target is larger than 32% of its deals.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Thin direct sector history",
-          "detail": "The data shows only 2 Healthcare Services deals and 2 direct precedents, both from 2021, with none in the data since. Several shortlisted sponsors have 3 direct precedents (Nordic Capital, Bain Capital, New Mountain Capital, Advent International).",
+          "title": "Competition from other sponsors",
+          "detail": "Outside the data: 9 other Financial Sponsors are shortlisted, and several have more direct precedents, such as Nordic Capital, Bain Capital, New Mountain Capital and Advent International with 3 each. Blackstone has 2.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Exit path and holding period",
-          "detail": "Outside the data: the data doesn't show Blackstone's hold periods or exit routes, so exit fit for a regional private target is untested.",
+          "title": "Antitrust and integration",
+          "detail": "Outside the data: any overlap with Blackstone's existing healthcare holdings could raise regulatory or integration issues. The data doesn't show those holdings.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Blackstone has 2 direct precedents and buys across Physician Groups and Behavioral Health, though peers match on most traits",
-      "overview": "Blackstone is a Financial Sponsor with 25 deals in the data, 22 closed, from 2015 to 2024 (F1, F3). Deal sizes run from $10.5M (MA-2023-0456) to $14,353.7M (MA-2019-0498), with a median of $341.7M (F14). Its largest sector is Health Insurance with 6 deals, followed by Revenue Cycle with 4 (F4, F6). It did 3 deals in 2023-2024, and its last deal was in 2024 Q2 (MA-2024-0347) (F16). It ranks 5 of 10 with a score of 15.7 (F2).",
-      "fit_thesis": "Blackstone has 2 deals in Healthcare Services, 2 in Physician Groups and 2 in Behavioral Health, at similarity weights of 1.00, 0.83 and 0.77 (F5, F7, F8). The target's $200.0M EV is larger than 32% of its deals, so it sits in the lower part of its size range (F15). 19 of 25 targets were regional, 9 of 25 were private, and 12 of 25 had margins at or above 16.8% (F17, F18, F19). Those shares are close to the peer medians of 80%, 36% and 39%, so they are typical for sponsors and do not set Blackstone apart (F32, F33, F34). What does set it apart is the breadth of its adjacent healthcare sector mix, including Dental, Medical Devices and Health Insurance (F4, F9, F10).",
-      "precedent_commentary": "MA-2021-0195 ($299.0M, 14.6x EV/EBITDA) and MA-2021-0407 ($341.7M, 10.0x) are the 2 direct precedents, both closed in 2021 in Healthcare Services (F20). Both are in the same EV band as the target. MA-2018-0122 is a closed Physician Groups deal at $251.7M but falls outside the 2020-2024 window. MA-2020-0040 was withdrawn and MA-2019-0478 is $57.8M, so both are weaker guides. Blackstone's 2 direct precedents match the peer median of 2 (F31).",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F23). Blackstone's 2 direct precedents have a median EV/EBITDA of 12.3x (F21). Across all 22 of its closed deals, its median EV/EBITDA is 17.1x and its median EV/Revenue is 2.94x (F24). That wider set includes much larger deals and other sectors, so the data doesn't show what Blackstone would pay for this target.",
-      "conviction_reason": "Conviction is Medium because Blackstone has 2 direct precedents, short of the 3 needed for High, and 2 deals in Healthcare Services (F35). The Competitive process risk is normal severity, so it does not lower the level (F36).",
+      "headline": "Blackstone has 2 direct precedents and 2 Healthcare Services deals, but a $14,353.7M top end and rank 5 of 10",
+      "overview": "Blackstone is a Financial Sponsor with 25 deals in the data, 22 closed, from 2015-2024 (F1, F3). Deal sizes run from $10.5M (MA-2023-0456) to $14,353.7M (MA-2019-0498), with a median of $341.7M (F14). It buys across Health Insurance (6 deals), Revenue Cycle (4) and Health IT (3), plus Healthcare Services (2) (F4, F5, F6, F11). It made 3 deals in 2023-2024; the last was 2024 Q2 (MA-2024-0347) (F16). It ranks 5 of 10 with a score of 15.7 (F2).",
+      "fit_thesis": "Blackstone has 2 closed direct precedents in Healthcare Services, MA-2021-0195 and MA-2021-0407 (F20). It also has 2 deals each in Physician Groups (similarity 0.83) and Behavioral Health (0.77) (F7, F8). The $200.0M target is larger than 32% of its deals (F15). Regional targets are 19 of 25 deals (76%), against a peer median of 80%, so that trait is not specific to Blackstone (F19, F34). The same holds for private targets, at 36% for both Blackstone and peers (F17, F32). Its 2 Healthcare Services deals compare with a peer median of 1 (F5, F30). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "The two direct precedents matter most. Both are Healthcare Services deals from 2021: MA-2021-0195 at $299.0M and 14.6x EV/EBITDA, and MA-2021-0407 at $341.7M and 10.0x. The other three rows are not direct: MA-2018-0122 (Physician Groups, $251.7M, closed) is outside 2020-2024, MA-2020-0040 (Physician Groups, $54.0M) was withdrawn, and MA-2019-0478 (Behavioral Health, $57.8M) is below $100.0M. The direct count of 2 matches the peer median of 2 (F31), so it does not set Blackstone apart on its own.",
+      "valuation_commentary": "The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F23). Blackstone's 2 direct precedents show a median EV/EBITDA of 12.3x (F21). Across its 22 closed deals, the medians are 17.1x EV/EBITDA and 2.94x EV/Revenue (F24). That broader set spans many sectors and sizes, so the data doesn't show what Blackstone would pay for this target.",
+      "conviction_reason": "Conviction is Medium because Blackstone has 2 direct precedents, below the 3 needed for High, and 2 Healthcare Services deals (F20, F22, F35). The data risk is normal severity, so it does not lower the level.",
       "cited_ids": {
         "overview": [
           "F1",
           "F2",
           "F3",
           "F4",
+          "F5",
           "F6",
+          "F11",
           "F14",
           "F16"
         ],
         "fit_thesis": [
-          "F4",
           "F5",
           "F7",
           "F8",
-          "F9",
-          "F10",
           "F15",
           "F17",
-          "F18",
           "F19",
+          "F20",
+          "F30",
           "F32",
-          "F33",
           "F34"
         ],
         "precedent_commentary": [
-          "F20",
-          "F31",
           "MA-2021-0195",
           "MA-2021-0407",
           "MA-2018-0122",
           "MA-2020-0040",
-          "MA-2019-0478"
+          "MA-2019-0478",
+          "F31"
         ],
         "valuation_commentary": [
           "F21",
@@ -1775,10 +1787,10 @@
           "F24"
         ],
         "conviction_reason": [
-          "F35",
-          "F36",
           "F20",
-          "F22"
+          "F22",
+          "F35",
+          "F36"
         ]
       },
       "review_flags": [],
@@ -2033,7 +2045,7 @@
           "source": "data",
           "severity": "normal",
           "transaction_ids": [],
-          "explanation": "With 0 direct precedents, the data gives little proof that Warburg Pincus has bought at this size and sector (F33)."
+          "explanation": "Any pitch to Warburg Pincus has to be built on adjacent-sector experience, since no comparable deal supports it."
         },
         {
           "title": "Competitive process",
@@ -2047,19 +2059,11 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Warburg Pincus may face competition on this asset (F34)."
-        },
-        {
-          "title": "Stronger shortlist alternatives",
-          "detail": "Several shortlisted buyers have more direct precedents, such as Nordic Capital and Bain Capital with 3 each. Warburg Pincus has 0 (F18).",
-          "source": "llm",
-          "severity": "normal",
-          "transaction_ids": [],
-          "explanation": ""
+          "explanation": "Expect a contested sale, so Warburg Pincus would need to stand out against other bidders on this target."
         },
         {
           "title": "Withdrawn and terminated deals",
-          "detail": "It has 4 withdrawn and 2 terminated deals, including MA-2023-0191 in Physician Groups. Outside the data: the reasons are unknown, so execution or pricing discipline is untested.",
+          "detail": "The data shows 4 withdrawn and 2 terminated deals, including a withdrawn Physician Groups deal (MA-2023-0191). Outside the data: the reasons are unknown, so execution risk can't be assessed.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [
@@ -2069,36 +2073,50 @@
           "explanation": ""
         },
         {
-          "title": "Financing and antitrust",
-          "detail": "Outside the data: the facts say nothing about fund capacity or regulatory review for a regional healthcare services deal.",
+          "title": "Financing and fund capacity",
+          "detail": "Outside the data: the facts show no fund size, dry powder or financing appetite. Capacity for a $200.0M deal can't be confirmed.",
+          "source": "llm",
+          "severity": "normal",
+          "transaction_ids": [],
+          "explanation": ""
+        },
+        {
+          "title": "Competition from better-evidenced sponsors",
+          "detail": "Nordic Capital and Bain Capital each have 3 direct precedents, and Warburg Pincus has 0. Outside the data: sellers may favor bidders with direct experience.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Warburg Pincus buys across adjacent healthcare sectors but has 0 direct precedents; call only as a breadth-based, low-conviction outreach",
-      "overview": "Warburg Pincus is a Financial Sponsor with 23 deals in the data, 16 closed, from 2016-2024 (F1, F3). Deal sizes run from $11.4M (MA-2017-0074) to $2,124.3M (MA-2021-0482), with a median of $106.1M (F12). It has 4 deals in 2023-2024, and its last deal was in 2024 Q1 (MA-2024-0186) (F14). Its ranking score is 14.9, rank 6 of 10 (F2).",
-      "fit_thesis": "The fit rests on breadth, not on direct experience. Warburg Pincus has 5 deals in Home Health/Hospice, 4 in Behavioral Health, 3 in Physician Groups and 3 in Dental (F4, F5, F6, F7). Physician Groups carries the highest similarity weight to Healthcare Services at 0.83, and Behavioral Health is at 0.77 (F5, F6). The $200.0M target is larger than 65% of its deals (F13). Its 74% regional share is near the peer median of 80%, so regional focus does not set it apart (F17, F31). The data doesn't show any Healthcare Services deal for this buyer (F19). Outside the data: platform versus add-on fit, exit path and holding period are not covered.",
-      "precedent_commentary": "The data shows 0 direct precedents (F18). The 5 deals in the table are adjacent only. MA-2023-0191 is closest in size at $111.3M in Physician Groups, but it was withdrawn. The other 4 are closed, at $11.4M-$26.6M EV, well below the target's $200.0M. They show sector familiarity, not deals at this size.",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F20). Warburg Pincus's 16 closed deals show median EV/EBITDA of 15.6x and median EV/Revenue of 2.51x (F21). Those deals span many sectors, and the data doesn't show what it paid in Healthcare Services.",
-      "conviction_reason": "Conviction is Low because Warburg Pincus has 0 direct precedents and 0 deals in Healthcare Services, below the thresholds for Medium (F18, F19, F32). The peer median is 2 direct precedents (F28).",
+      "headline": "Warburg Pincus buys adjacent physician and behavioral health deals but has no Healthcare Services precedent; a lower-priority call",
+      "overview": "Warburg Pincus is a Financial Sponsor with 23 deals in the data, 16 closed, from 2016-2024 (F1, F3). Deal sizes run from $11.4M (MA-2017-0074) to $2,124.3M (MA-2021-0482), with a median of $106.1M (F12). It buys most in Home Health/Hospice (5), Behavioral Health (4), and Physician Groups, Dental, Pharma/Biotech and Health IT (3 each) (F4-F9). It did 4 deals in 2023-2024, the last in 2024 Q1 (F14).",
+      "fit_thesis": "The fit rests on adjacency, not direct experience. The data shows 0 deals in Healthcare Services (F19). Physician Groups carries a similarity weight of 0.83 and Behavioral Health 0.77, and Warburg Pincus has 3 and 4 deals there (F5, F6). Dental (0.72) adds 3 more deals (F7). The $200.0M target is larger than 65% of its deals (F13). 17 of 23 targets were regional (F17), but the peer median is 80% (F31), so that is not specific to this buyer. Its 4 deals in 2023-2024 compare with a peer median of 3 (F14, F24), which is close to typical. Outside the data: whether this would be a platform or an add-on for Warburg Pincus is not shown.",
+      "precedent_commentary": "None of the 5 deals shown is a direct precedent (F18). The largest is MA-2023-0191, a Physician Groups deal at $111.3M and 14.0x EV/EBITDA, but it was withdrawn. The closed deals are small, from $11.4M to $26.6M: MA-2022-0402, MA-2017-0074, MA-2018-0241 and MA-2023-0421. They show sector familiarity but do not show it executing at the $200.0M size.",
+      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F20). Warburg Pincus's 16 closed deals have a median EV/EBITDA of 15.6x and a median EV/Revenue of 2.51x (F21). Those deals span many sectors and sizes, so they are not a like-for-like pricing read. The data doesn't show what it would pay for this target.",
+      "conviction_reason": "Conviction is Low because Warburg Pincus has 0 direct precedents and 0 deals in Healthcare Services (F18, F19, F32). Both counts fall below the thresholds for Medium.",
       "cited_ids": {
         "overview": [
           "F1",
-          "F2",
           "F3",
-          "F12",
-          "F14"
-        ],
-        "fit_thesis": [
           "F4",
           "F5",
           "F6",
           "F7",
+          "F8",
+          "F9",
+          "F12",
+          "F14"
+        ],
+        "fit_thesis": [
+          "F5",
+          "F6",
+          "F7",
           "F13",
+          "F14",
           "F17",
           "F19",
+          "F24",
           "F31"
         ],
         "precedent_commentary": [
@@ -2116,7 +2134,6 @@
         "conviction_reason": [
           "F18",
           "F19",
-          "F28",
           "F32"
         ]
       },
@@ -2384,11 +2401,11 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so New Mountain would likely face other bidders here."
+          "explanation": "Expect New Mountain Capital to face other bidders on a comparable asset, so a call should come early and the pitch should address how a process would be run."
         },
         {
-          "title": "Limited Healthcare Services depth",
-          "detail": "It has 1 deal in Healthcare Services, equal to the peer median, and its direct precedents are all Behavioral Health. The data doesn't show experience in the target's own niche.",
+          "title": "Sector depth in Healthcare Services proper",
+          "detail": "They have 1 deal in Healthcare Services, equal to the peer median of 1, so the data shows their depth is in adjacent sub-sectors, not the core sector.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
@@ -2396,30 +2413,31 @@
         },
         {
           "title": "Withdrawn deals",
-          "detail": "4 of its deals were withdrawn and 0 terminated. The data doesn't show the reasons, so execution or pricing discipline is unclear.",
+          "detail": "4 of their deals were withdrawn and 0 terminated. The data doesn't show why, so execution or pricing discipline is an open question.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Platform versus add-on fit",
-          "detail": "Outside the data: the data doesn't show whether New Mountain holds a related platform that this target would join, or whether it would treat the target as a new platform. This affects the price it can pay and its exit path.",
+          "title": "Financing, antitrust and integration",
+          "detail": "Outside the data: financing capacity, antitrust review and overlap with existing portfolio holdings are not measured here and would need separate diligence.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "New Mountain Capital has 3 direct precedents, all Behavioral Health, plus 5 Physician Groups deals, a deal profile matching this $200.0M target",
-      "overview": "New Mountain Capital is a Financial Sponsor with 21 deals in the data, 14 closed, from 2015-2024 (F1, F3). Deal sizes run from $10.8M (MA-2021-0029) to $6,931.9M (MA-2021-0401), with a median of $121.9M (F13). It buys most in Physician Groups (5) and Behavioral Health (5), then Dental (3) (F4, F5, F6). It had 2 deals in 2023-2024; the last was in 2024 Q2 (MA-2024-0216) (F15).",
-      "fit_thesis": "The target is a $200.0M private regional Healthcare Services business. New Mountain has 3 direct precedents (F19), against a peer median of 2 (F30). Its sector mix is concentrated in adjacent sectors: Physician Groups at 0.83 similarity and Behavioral Health at 0.77 (F4, F5). It has only 1 deal in Healthcare Services itself, equal to the peer median of 1 (F7, F29). Its private-target share is 62% against a peer median of 36%, and this sets it apart (F16, F31). Its regional share of 76% is near the peer median of 80%, so it is not specific to this buyer (F18, F33). The target's $200.0M EV is larger than 62% of its deals (F14).",
-      "precedent_commentary": "The 3 direct precedents are all Behavioral Health deals from 2022: MA-2022-0377 at $228.4M, MA-2022-0393 at $291.4M and MA-2022-0165 at $314.8M. They are the closest evidence of New Mountain buying at this size. Their EV/EBITDA ranges from 8.2x to 15.6x. MA-2018-0470 is its Healthcare Services deal at $121.9M, and MA-2019-0246 is a Physician Groups deal at $250.0M. Neither counts as direct.",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). New Mountain's 3 direct precedents have median EV/EBITDA of 11.2x (F20). Across its 14 closed deals, the medians are EV/EBITDA 12.9x and EV/Revenue 2.50x (F23). The data doesn't show what multiple it would pay for this target.",
-      "conviction_reason": "Conviction is High because New Mountain has 3 direct precedents, which meets the threshold of 3 or more (F19). It also has 1 deal in Healthcare Services (F21). The normal-severity data risk does not lower it (F34, F35).",
+      "headline": "New Mountain Capital has 3 direct precedents in Behavioral Health, all at $228.4M-$314.8M, bracketing this $200.0M target",
+      "overview": "New Mountain Capital is a Financial Sponsor (F1) with 21 deals in the data, 14 closed, from 2015-2024 (F3). Deal sizes run from $10.8M (MA-2021-0029) to $6,931.9M (MA-2021-0401), with a median of $121.9M (F13). It buys mainly in Physician Groups (5 deals) and Behavioral Health (5 deals), then Dental (3) (F4, F5, F6). It has 2 deals in 2023-2024, the last in 2024 Q2 (F15). Ranking score is 14.7, rank 7 of 10 (F2).",
+      "fit_thesis": "The target's $200.0M EV is larger than 62% of their deals (F14). Their sector mix sits close to Healthcare Services: Physician Groups at 0.83 and Behavioral Health at 0.77 similarity (F4, F5). They have 3 direct precedents against a peer median of 2 (F19, F30), so this depth is specific to them. Their private-target share is 62% against a peer median of 36% (F16, F31), which matches this private target. Regional focus (76%) and the 48% share of targets with margin at or above 16.8% are near peer medians of 80% and 39%, so they are not distinguishing (F17, F18, F32, F33). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "The 3 direct precedents are all Behavioral Health deals from 2022: MA-2022-0377 at $228.4M, MA-2022-0393 at $291.4M and MA-2022-0165 at $314.8M (F19). They matter most because sector, size band and period all match the definition. Their EV/EBITDA runs from 8.2x to 15.6x. MA-2018-0470 (Healthcare Services, $121.9M, 12.3x) and MA-2019-0246 (Physician Groups, $250.0M, 9.2x) are closed but not direct, as they fall outside 2020-2024.",
+      "valuation_commentary": "Market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA 12.1x and median EV/Revenue 2.90x (F22). Their 3 direct precedents have median EV/EBITDA 11.2x (F20). Across their 14 closed deals, medians are EV/EBITDA 12.9x and EV/Revenue 2.50x (F23). The data doesn't show a direct-precedent EV/Revenue median.",
+      "conviction_reason": "Conviction is High because they have 3 direct precedents (MA-2022-0165, MA-2022-0393, MA-2022-0377), which meets the threshold of 3 or more. The single normal-severity data risk does not lower it.",
       "cited_ids": {
         "overview": [
           "F1",
+          "F2",
           "F3",
           "F4",
           "F5",
@@ -2433,20 +2451,21 @@
           "F7",
           "F14",
           "F16",
+          "F17",
           "F18",
           "F19",
-          "F29",
           "F30",
           "F31",
+          "F32",
           "F33"
         ],
         "precedent_commentary": [
+          "F19",
           "MA-2022-0377",
           "MA-2022-0393",
           "MA-2022-0165",
           "MA-2018-0470",
-          "MA-2019-0246",
-          "F19"
+          "MA-2019-0246"
         ],
         "valuation_commentary": [
           "F20",
@@ -2454,9 +2473,9 @@
           "F23"
         ],
         "conviction_reason": [
+          "F34",
           "F19",
           "F21",
-          "F34",
           "F35"
         ]
       },
@@ -2718,7 +2737,7 @@
           "transaction_ids": [
             "MA-2024-0020"
           ],
-          "explanation": "KKR has only 1 direct precedent (MA-2024-0020), so the data gives fewer than 2 closely comparable closed deals to anchor the case."
+          "explanation": "The MD should treat KKR's sector fit as supported by one deal, so the call should test appetite rather than assume it."
         },
         {
           "title": "Competitive process",
@@ -2732,81 +2751,73 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so KKR would likely face competition for this asset."
+          "explanation": "Expect a contested sale process, so KKR would likely be one of several bidders and pricing tension should be planned for."
         },
         {
-          "title": "Sector depth",
-          "detail": "KKR has 1 Healthcare Services deal against 4 each at Nordic Capital and Vista Equity, so core-sector depth is thinner than some shortlist peers.",
+          "title": "Financing and fund capacity",
+          "detail": "Outside the data: the data doesn't show KKR's available capital or fund vintage, so appetite for a $200.0M deal is unconfirmed.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Deal abandonment",
-          "detail": "KKR has 3 withdrawn and 1 terminated deals in the data, which the data cannot explain.",
+          "title": "Mixed outcomes in adjacent sectors",
+          "detail": "KKR has 3 withdrawn and 1 terminated deals, including Physician Groups deals; the data doesn't show why they failed.",
           "source": "llm",
           "severity": "normal",
-          "transaction_ids": [],
+          "transaction_ids": [
+            "MA-2019-0100",
+            "MA-2020-0173"
+          ],
           "explanation": ""
         },
         {
-          "title": "Platform versus add-on fit",
-          "detail": "Outside the data: whether KKR would treat a $200.0M regional target as a platform or an add-on, and the exit path and holding period, are not shown in the facts.",
-          "source": "llm",
-          "severity": "normal",
-          "transaction_ids": [],
-          "explanation": ""
-        },
-        {
-          "title": "Antitrust and financing",
-          "detail": "Outside the data: regional overlap with existing KKR holdings could draw antitrust review, and financing terms are not covered by the facts.",
+          "title": "Competition from other shortlist buyers",
+          "detail": "Several sponsors on the shortlist have more direct precedents, such as Nordic Capital, Bain Capital, New Mountain Capital and Advent International with 3 each. KKR has 1.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "KKR: one direct precedent in Behavioral Health at $394.2M, plus 5 Physician Groups deals and a comparable deal size",
-      "overview": "KKR is a Financial Sponsor with 17 deals in the data, 11 closed, from 2017-2024 (F1, F3). Deal sizes run from $6.1M (MA-2020-0316) to $13,267.6M (MA-2023-0500), with a median of $159.7M (F13). It buys most in Physician Groups (5 deals), then Behavioral Health (3) and Health Insurance (3) (F4, F5, F6). It has 3 deals in 2023-2024, and the last was in 2024 Q3 (MA-2024-0020) (F15).",
-      "fit_thesis": "The $200.0M target is larger than 53% of KKR's deals, so it sits in the middle of their size range (F14). KKR's adjacent sector exposure is real: Physician Groups has a similarity weight of 0.83 and Behavioral Health 0.77 (F4, F5). Its one direct precedent is MA-2024-0020, a Behavioral Health deal at $394.2M (F19). KKR has 1 deal in Healthcare Services itself (F7). Regional targets are 13 of 17 deals (76%), but the peer median is 80%, so regional focus does not set KKR apart (F18, F33). Its 3 deals in 2023-2024 match the peer median of 3 (F15, F26). Share of private targets is 24% against a peer median of 36% (F16, F31). Margin at or above 16.8% is 24% against 39% (F17, F32). Neither suggests a particular pull toward this target profile.",
-      "precedent_commentary": "MA-2024-0020 matters most. It is KKR's only direct precedent: Behavioral Health, $394.2M, closed, 9.0x EV/EBITDA, 3.24x EV/Revenue (F19, F20). MA-2019-0352 is a closed Healthcare Services deal at $365.2M and 16.8x, but it falls outside the 2020-2024 window. MA-2019-0205 is a closed Physician Groups deal at $159.7M and 9.9x, also outside the window. MA-2019-0100 was terminated and MA-2020-0173 was withdrawn (F24).",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). KKR's 11 closed deals show median EV/EBITDA of 15.7x and EV/Revenue of 2.53x (F23). Its single direct precedent was at 9.0x EV/EBITDA (F20). The data does not show what KKR would pay for this target. One direct precedent is too thin to infer a price.",
-      "conviction_reason": "Conviction is Medium because KKR has 1 direct precedent and 1 deal in Healthcare Services, which meets the 1-or-more threshold but not the 3 needed for High (F34). Neither data risk is high severity, so the level is not lowered (F35, F36).",
+      "headline": "KKR has a direct Behavioral Health precedent at $394.2M and buys across physician and behavioral sectors",
+      "overview": "KKR is a Financial Sponsor with 17 deals in the data, 11 closed, from 2017 to 2024 (F1, F3). Deal sizes run from $6.1M (MA-2020-0316) to $13,267.6M (MA-2023-0500), with a median of $159.7M (F13). It has 5 deals in Physician Groups, 3 in Behavioral Health and 1 in Healthcare Services (F4, F5, F7). It did 3 deals in 2023-2024; the last was 2024 Q3 (MA-2024-0020) (F15).",
+      "fit_thesis": "Breadth is the distinguishing trait. KKR's deals sit mainly in Physician Groups (5 deals, similarity 0.83) and Behavioral Health (3 deals, similarity 0.77), with 3 in Health Insurance (0.52) (F4, F5, F6). The $200.0M target is larger than 53% of KKR's deals, so size is not a stretch (F14). Its 2023-2024 pace of 3 deals equals the peer median of 3, so pace is not specific to KKR (F15, F26). Its regional share of 76% is near the peer median of 80%, so that is also typical (F18, F33). Private targets are 24% of its deals against a 36% peer median, and the data doesn't show a private-target preference (F16, F31). Outside the data: platform versus add-on fit, exit path and holding period are not covered.",
+      "precedent_commentary": "MA-2024-0020 is the only direct precedent: a closed 2024 Behavioral Health deal at $394.2M, 9.0x EV/EBITDA and 3.24x EV/Revenue (F19, F20). MA-2019-0352 is a closed Healthcare Services deal at $365.2M and 16.8x, but it falls outside the 2020-2024 window. MA-2019-0205 is a closed Physician Groups deal at $159.7M and 9.9x. MA-2019-0100 was terminated and MA-2020-0173 was withdrawn (F24).",
+      "valuation_commentary": "Market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with median EV/EBITDA of 12.1x and median EV/Revenue of 2.90x (F22). KKR's 11 closed deals show median EV/EBITDA of 15.7x and EV/Revenue of 2.53x (F23). Its single direct precedent was at 9.0x EV/EBITDA, but one deal is a thin basis for a view (F20).",
+      "conviction_reason": "Conviction is Medium because KKR has 1 direct precedent and 1 deal in Healthcare Services, which meets the Medium threshold but falls short of the 3 direct precedents needed for High (F34, F19, F21). The data risks are normal severity, so the level is not lowered.",
       "cited_ids": {
         "overview": [
           "F1",
           "F3",
           "F4",
           "F5",
-          "F6",
+          "F7",
           "F13",
           "F15"
         ],
         "fit_thesis": [
           "F4",
           "F5",
-          "F7",
+          "F6",
           "F14",
           "F15",
           "F16",
-          "F17",
           "F18",
-          "F19",
           "F26",
           "F31",
-          "F32",
           "F33"
         ],
         "precedent_commentary": [
+          "F19",
+          "F20",
+          "F24",
           "MA-2024-0020",
           "MA-2019-0352",
           "MA-2019-0205",
           "MA-2019-0100",
-          "MA-2020-0173",
-          "F19",
-          "F20",
-          "F24"
+          "MA-2020-0173"
         ],
         "valuation_commentary": [
           "F20",
@@ -2815,10 +2826,10 @@
         ],
         "conviction_reason": [
           "F34",
-          "F35",
-          "F36",
           "F19",
-          "F21"
+          "F21",
+          "F35",
+          "F36"
         ]
       },
       "review_flags": [],
@@ -3083,39 +3094,39 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so Advent may face other bidders for this asset (F35)."
+          "explanation": "Expect Advent to face other bidders on this asset, so the pitch should rest on its sector fit rather than on a quiet bilateral process."
         },
         {
           "title": "Withdrawn and terminated deals",
-          "detail": "Advent has 2 withdrawn and 1 terminated deal in its history. The data doesn't show the reasons, so execution risk on this deal is not measurable.",
+          "detail": "Advent has 2 withdrawn deals and 1 terminated deal in the data. The data doesn't show the reasons, so execution risk is not measured.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Thin Healthcare Services history",
-          "detail": "Only 1 of its deals is in Healthcare Services, and the 3 direct precedents come mostly from Behavioral Health. Outside the data: the sector breadth needed for this target may be thinner than the count suggests.",
+          "title": "Ranking position",
+          "detail": "Advent ranks 9 of 10 on the ranking score of 11.8, and the shortlist includes buyers with more Healthcare Services deals, such as Nordic Capital with 4 and Vista Equity with 4. Outside the data: those buyers may be seen as stronger sector owners.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Platform fit, exit and financing",
-          "detail": "Outside the data: platform versus add-on fit, exit path, holding period and financing capacity are not shown in the facts and need diligence before the call.",
+          "title": "Financing and antitrust",
+          "detail": "Outside the data: financing capacity for a $200.0M deal and any overlap with existing Advent holdings in behavioral health are not shown.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "Advent has 3 direct precedents in Healthcare Services, Behavioral Health and Physician Groups, and a $200.0M target sits inside its deal range",
-      "overview": "Advent International is a Financial Sponsor with 18 deals in the data, 15 closed, from 2016 to 2024 (F1, F3). Deal sizes run from $13.5M (MA-2016-0302) to $5,536.6M (MA-2016-0231), with a median of $124.0M (F13). It buys in Behavioral Health (3), Dental (3), Health Insurance (3) and Revenue Cycle (3), among others (F4, F5, F6, F8). It closed 3 deals in 2023-2024, the last in 2024 Q4 (MA-2024-0042) (F15).",
-      "fit_thesis": "Advent has 3 direct precedents: MA-2021-0341, MA-2023-0108 and MA-2024-0120 (F19). Two are in Behavioral Health, which is its largest healthcare-adjacent sector at a similarity of 0.77 (F4). It also has 1 Physician Groups deal at 0.83 (F10). The target's $200.0M EV is larger than 61% of its deals (F14). Its 3 direct precedents sit above the peer median of 2 (F30). Its 1 Healthcare Services deal matches the peer median of 1, so that count does not set it apart (F9, F29). Its 3 deals in 2023-2024 equal the peer median of 3, so recent pace is typical (F15, F26). Its regional mix of 13 of 18 deals (72%) is near the peer median of 80%, so regional focus is not distinctive (F18, F33). Its 3 direct precedents match Nordic Capital, Bain Capital and New Mountain Capital, so that count does not separate it from them. The data doesn't show a platform or add-on pattern.",
-      "precedent_commentary": "MA-2024-0120 is the most relevant precedent. It is a 2024 Healthcare Services deal at $303.9M, closed at 9.3x EV/EBITDA and 3.36x EV/Revenue. MA-2021-0341 (Behavioral Health, $163.0M, 13.2x) and MA-2023-0108 (Behavioral Health, $123.0M, 14.6x) complete the direct set. MA-2021-0072 and MA-2019-0027 are not direct, because one is below $100.0M EV and the other is from 2019.",
-      "valuation_commentary": "The market comps are 10 closed Healthcare Services deals at $100.0M-$400.0M, with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F22). Advent's 3 direct precedents have a median EV/EBITDA of 13.2x (F20). Across its 15 closed deals, the median is 15.5x EV/EBITDA and 3.19x EV/Revenue (F23). The data doesn't show what Advent would pay for this target.",
-      "conviction_reason": "Conviction is High because Advent has 3 direct precedents, which meets the threshold of 3 or more (F19, F34). It also has 1 deal in Healthcare Services (F21). The normal-severity data risk does not lower the level.",
+      "headline": "Advent has 3 direct precedents in Behavioral Health and Healthcare Services, including a 2024 deal at $303.9M",
+      "overview": "Advent International is a financial sponsor with 18 deals in the data, 15 closed, from 2016 to 2024 (F1, F3). Deal size runs from $13.5M (MA-2016-0302) to $5,536.6M (MA-2016-0231), with a median of $124.0M (F13). It has bought in Behavioral Health (3 deals), Dental (3), Health Insurance (3), Revenue Cycle (3) and Medical Devices (2) (F4-F8). It did 3 deals in 2023-2024, and the last was in 2024 Q4 (F15).",
+      "fit_thesis": "The target's $200.0M EV is larger than 61% of Advent's deals, so it sits inside the range it usually buys in (F14). Advent has 3 direct precedents against a peer median of 2 (F19, F30). Its Behavioral Health count of 3 deals, at 0.77 similarity, is the clearest adjacent-sector link (F4). It has 1 Physician Groups deal and 1 Healthcare Services deal (F9, F10). The Healthcare Services count matches the peer median of 1 (F29), so that count does not set it apart. Its 13 regional targets out of 18 (72%) are close to the peer median of 80%, so regional focus is not specific to Advent (F18, F33). Its 8 of 18 deals (44%) with margins at or above 16.8% compare with a peer median of 39% (F17, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
+      "precedent_commentary": "The three direct precedents matter most: MA-2024-0120 (Healthcare Services, $303.9M, 9.3x), MA-2021-0341 (Behavioral Health, $163.0M, 13.2x) and MA-2023-0108 (Behavioral Health, $123.0M, 14.6x). All three closed and fall in the $100.0M-$400.0M band. MA-2024-0120 is the most recent and the closest in sector. The two non-direct deals, MA-2021-0072 ($29.5M) and MA-2019-0027 ($95.1M), fall below the size band.",
+      "valuation_commentary": "Market comps are 10 closed Healthcare Services deals with a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F22). Advent's 3 direct precedents have a median EV/EBITDA of 13.2x (F20). Across its 15 closed deals, the median EV/EBITDA is 15.5x and the median EV/Revenue is 3.19x (F23). The data doesn't show what Advent would pay for this target.",
+      "conviction_reason": "Conviction is High because Advent has 3 direct precedents, which meets the threshold of 3 or more (F19, F34). It also has 1 Healthcare Services deal (F21). The Competitive process risk is normal severity, so it does not lower the level.",
       "cited_ids": {
         "overview": [
           "F1",
@@ -3123,6 +3134,7 @@
           "F4",
           "F5",
           "F6",
+          "F7",
           "F8",
           "F13",
           "F15"
@@ -3132,12 +3144,12 @@
           "F9",
           "F10",
           "F14",
-          "F15",
+          "F17",
           "F18",
           "F19",
-          "F26",
           "F29",
           "F30",
+          "F32",
           "F33"
         ],
         "precedent_commentary": [
@@ -3418,19 +3430,19 @@
             "MA-2021-0195",
             "MA-2024-0120"
           ],
-          "explanation": "5 of 10 comparable closed deals drew 3 or more bidders, so TPG Capital may face other bidders on this sale."
+          "explanation": "Expect TPG to face rival bidders on a process like this, so the call should come early and set out a clear reason why TPG fits."
         },
         {
           "title": "Low recent activity",
-          "detail": "TPG Capital has 1 deal in 2023-2024 against a peer median of 3, and its last deal was 2023 Q2. Outside the data: this may reflect fund timing or capacity.",
+          "detail": "TPG has 1 deal in 2023-2024 and its last deal was 2023 Q2 (F14). The data doesn't show whether it has capital or appetite for a new healthcare deal now.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         },
         {
-          "title": "Size stretch",
-          "detail": "The $200.0M target is above its $87.5M median deal size. Outside the data: financing capacity and fund concentration for this deal size are not shown.",
+          "title": "Thin Healthcare Services history",
+          "detail": "TPG has 1 deal in Healthcare Services, in line with the peer median of 1 (F9, F28). Outside the data: its sector depth and its view on this target's exit path are not shown.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
@@ -3438,35 +3450,27 @@
         },
         {
           "title": "Withdrawn deals",
-          "detail": "2 of its deals were withdrawn. The data doesn't show the reasons, so execution risk is unclear.",
-          "source": "llm",
-          "severity": "normal",
-          "transaction_ids": [],
-          "explanation": ""
-        },
-        {
-          "title": "Antitrust and integration",
-          "detail": "Outside the data: antitrust review and integration with any existing healthcare holdings are not covered by the facts.",
+          "detail": "2 of TPG's deals were withdrawn (F23). The data doesn't show why, so execution or pricing discipline is an open question.",
           "source": "llm",
           "severity": "normal",
           "transaction_ids": [],
           "explanation": ""
         }
       ],
-      "headline": "TPG Capital: 2 direct precedents and a $200.0M target above most of its deal sizes, rated Medium",
-      "overview": "TPG Capital is a Financial Sponsor with 18 deals in the data, 15 of them closed, from 2016 to 2023 (F1, F3). Deal sizes run from $7.0M (MA-2023-0110) to $1,387.8M (MA-2022-0172), with a median of $87.5M (F12). It buys across Physician Groups (3), Behavioral Health (3), Health Insurance (4), Dental (2) and Health IT (3) (F4-F8). It has 1 deal in 2023-2024 against a peer median of 3 (F14, F25).",
-      "fit_thesis": "The target is private, and TPG Capital's private share is 11 of 18 deals (61%) against a peer median of 36% (F15, F30). That is a trait that sets it apart from peers. The $200.0M EV is larger than 78% of its deals, so this would be a bigger-than-usual deal for it (F13). It has 2 direct precedents, MA-2021-0369 and MA-2022-0350, matching the peer median of 2 (F18, F29). Its 3 Physician Groups deals and 3 Behavioral Health deals sit close to Healthcare Services, at similarity 0.83 and 0.77 (F4, F5). Regional targets (13 of 18, 72%) and margin at or above 16.8% (7 of 18, 39%) are near peer medians of 80% and 39%, so they are not specific to TPG Capital (F16, F17, F31, F32). Outside the data: platform versus add-on fit, exit path and holding period are not shown.",
-      "precedent_commentary": "The two direct precedents matter most: MA-2022-0350 (Healthcare Services, $186.6M, 11.2x EV/EBITDA) and MA-2021-0369 (Behavioral Health, $117.9M, 8.8x). Both closed. The other three Physician Groups deals are $7.0M to $23.1M, well below the target's $200.0M, so they show sector exposure but not size fit. MA-2018-0111 is Pending.",
-      "valuation_commentary": "The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F21). TPG Capital's 2 direct precedents show a median EV/EBITDA of 10.0x (F19). Across its 15 closed deals, the medians are 15.7x EV/EBITDA and 2.43x EV/Revenue (F22). The data doesn't show what drives the spread between these figures.",
-      "conviction_reason": "Conviction is Medium because TPG Capital has 2 direct precedents, short of the 3 needed for High, and 1 deal in Healthcare Services (F18, F20, F33). The Competitive process risk is normal severity, so it does not lower the level (F34).",
+      "headline": "TPG Capital has 2 direct precedents in the $100.0M-$400.0M range, including a Healthcare Services deal at $186.6M",
+      "overview": "TPG Capital is a Financial Sponsor with 18 deals in the data, 15 closed, from 2016-2023 (F1, F3). Deal sizes run from $7.0M (MA-2023-0110) to $1,387.8M (MA-2022-0172), with a median of $87.5M (F12). It buys across Health Insurance (4 deals), Physician Groups (3), Behavioral Health (3) and Health IT (3) (F4, F5, F6, F8). It has 1 deal in 2023-2024, against a peer median of 3 (F14, F25). Its ranking score is 11.7, rank 10 of 10 (F2).",
+      "fit_thesis": "The target's $200.0M EV is larger than 78% of TPG's deals (F13). TPG has 2 direct precedents, MA-2022-0350 and MA-2021-0369 (F18). It also has 3 Physician Groups deals, 3 Behavioral Health deals and 2 Dental deals, sectors with similarity weights of 0.83, 0.77 and 0.72 (F4, F5, F7). Private targets are 11 of 18 deals (61%), against a peer median of 36% (F15, F30). That private-target share is a distinguishing trait. Regional targets (72%) and margin at or above 16.8% (39%) sit near peer medians of 80% and 39%, so they do not set TPG apart (F16, F17, F31, F32). Outside the data: whether TPG would treat this target as a platform or an add-on is not shown.",
+      "precedent_commentary": "MA-2022-0350 is the closest match: Healthcare Services, $186.6M, closed, 11.2x EV/EBITDA and 2.99x EV/Revenue. MA-2021-0369 is Behavioral Health, $117.9M, closed, at 8.8x and 2.33x. The other 3 deals are Physician Groups at $23.1M, $15.2M and $7.0M. They are not direct precedents because they fall below the $100.0M-$400.0M range. MA-2018-0111 is also still pending.",
+      "valuation_commentary": "The 10 market comps show a median EV/EBITDA of 12.1x and a median EV/Revenue of 2.90x (F21). TPG's 2 direct precedents show a median EV/EBITDA of 10.0x (F19). Across its 15 closed deals, TPG's median is 15.7x EV/EBITDA and 2.43x EV/Revenue (F22). That all-deal figure covers a wide size range ($7.0M to $1,387.8M), so it is a weaker guide to this target than the direct precedents (F12).",
+      "conviction_reason": "Conviction is Medium because TPG has 2 direct precedents, below the 3 needed for High, and 1 deal in Healthcare Services (F18, F20, F33). The one data risk is normal severity, so it does not lower the level (F34).",
       "cited_ids": {
         "overview": [
           "F1",
+          "F2",
           "F3",
           "F4",
           "F5",
           "F6",
-          "F7",
           "F8",
           "F12",
           "F14",
@@ -3475,25 +3479,28 @@
         "fit_thesis": [
           "F4",
           "F5",
+          "F7",
           "F13",
           "F15",
           "F16",
           "F17",
           "F18",
-          "F29",
           "F30",
           "F31",
-          "F32"
+          "F32",
+          "MA-2022-0350",
+          "MA-2021-0369"
         ],
         "precedent_commentary": [
+          "F18",
           "MA-2022-0350",
           "MA-2021-0369",
           "MA-2018-0111",
           "MA-2018-0415",
-          "MA-2023-0110",
-          "F18"
+          "MA-2023-0110"
         ],
         "valuation_commentary": [
+          "F12",
           "F19",
           "F21",
           "F22"

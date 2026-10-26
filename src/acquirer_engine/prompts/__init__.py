@@ -5,7 +5,7 @@ Bump PROMPT_VERSION whenever a template changes: recordings are keyed by it (dec
 from pathlib import Path
 from string import Template
 
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2"  # v2: data-risk notes don't restate the risk's figures
 
 _PROMPT_DIR = Path(__file__).parent
 
